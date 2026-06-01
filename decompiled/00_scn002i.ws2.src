@@ -1,0 +1,98 @@
+DisplayMessage (0, , 0
+%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (1, char, 0
+「W-Well… yeah, it got me excited…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (2, char, 0
+Blushing with embarrassment, I honestly admit it.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 200, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (bg02, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, -800, 0, 0, 0)
+MoveBackground (bg02, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (st01, TG03B3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0153.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (3, char, 0
+「Hmmm… I figured as much? That's why your crotch is bulging out like that.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (4, char, 0
+As he says this, Chris grins, eyeing my unnaturally bulging crotch.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (5, char, 0
+「Th-This…!?!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (6, char, 0
+I notice his gaze and hurriedly try to cover my crotch with my hands.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 200, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (bg02, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, -800, 0, 0, 0)
+MoveBackground (bg02, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (st01, TG03B10.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0154.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (7, char, 0
+「No use hiding it now. I've been watching from behind the whole time, and you were unconsciously rubbing your crotch while watching the video.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (8, char, 0
+Chris says this and chuckles at me as I try to cover my crotch with my hands.%K%P
+);
+SetDisplayName (0, '')
+NextFile (00_SCN002K)
+FileEnd (66, 0, 0, 0, 0)

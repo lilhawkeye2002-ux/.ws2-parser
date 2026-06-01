@@ -1,0 +1,86 @@
+DisplayMessage (0, , 0
+%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (1, char, 0
+「I've kinda gotten used to it already, I guess.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (2, char, 0
+In truth, I hadn't adjusted at all, but I tried to play it tough so he wouldn't see how pathetic I really felt.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K5.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0027.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (3, char, 0
+「Heh～ Really? It sure doesn't look that way to me.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (4, char, 0
+The moment Chris heard my words, he grinned mischievously and poked at me with that retort.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (5, char, 0
+「Eh…? R-Really?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0028.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (6, char, 0
+「Because you always sit alone at your desk in class, and I've never seen you talking to anyone during breaks.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (7, char, 0
+「Ugh…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (8, char, 0
+His sharp observation left me completely speechless.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (9, char, 0
+「T-The truth is… I still haven't made even a single friend…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (10, char, 0
+As I put my situation into words, a wave of sadness washed over me.%K%P
+);
+SetDisplayName (0, '')
+NextFile (00_SCN002H)
+FileEnd (194, 0, 0, 0, 0)

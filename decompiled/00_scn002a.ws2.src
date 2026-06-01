@@ -1,0 +1,310 @@
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, EFBG00_01.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, DAY2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 1.5, 0, 2, 0)
+Unk00
+SetTimer (timer01, 0, 1)
+StartTimer (timer01, 1, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, EFBG00_01.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+PlayMusic (bgm01, BGM02.OGG, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 10, 0, 1, 0, 0, 0, 0)
+SetFlag (1081, 1)
+SoundEffect (se02, TRSE_155.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG10.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+C65 (0, 0, 0, 2, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (0, char, 0
+And so, the next day after classes…%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, ONSE03_1.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (1, char, 0
+Keeen koon kaan koon…%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (2, char, 0
+When the chime signaling the end of homeroom echoed through the classroom, announcing the end of the school day, I was finally free from my boring academy life.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (3, char, 0
+「Haa…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (4, char, 0
+In the end, my resolve from yesterday was in vain, and today too, I spent the whole day without talking to anyone.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (5, char, 0
+Feeling self-loathing about it, I reluctantly started getting ready to head home.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (6, char, 0
+I put the notebooks and textbooks from my desk into my bag, then stood up from my seat.%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se02, 0.5)
+SoundUnk1 (se01, 0.5)
+Unk64 (0)
+SetBackground (bg01, BG10.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, -1221, 140, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (bg02, BG10.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, -957, 245, 0, 0)
+MoveBackground (bg02, 2, 0, 0, 2, 2, 0, 0)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ShowGraphic (EFMSK_09.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SoundEffect (se01, HSE_159B.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (7, char, 0
+Gata…%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '')
+DisplayMessage (8, char, 0
+Looking around the classroom, the other classmates were busy chatting with friends or getting ready for club activities.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (9, char, 0
+But with no friends and no interest in clubs, I decided to head home alone, feeling lonely…%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (10, char, 0
+「Guess I'll go home and play some games…」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, TRSE_006.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (11, char, 0
+Muttering that to myself, I left the classroom dejectedly.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+SetTimer (timer01, 0, 1)
+StartTimer (timer01, 1, 0)
+Unk00
+SoundUnk1 (se01, 0.5)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg02, BG10.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, -957, 245, 0, 0)
+MoveBackground (bg02, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (st01, TG03J1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -1920, 0, 0, 0)
+C65 (0, 0, 0, 0.0099999997764826, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -700)
+LayerConfig (0, 6, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.5, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0001.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBoy')
+DisplayMessage (12, char, 0
+「………」%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+ClearLayer (*)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+SetTimer (timer01, 0, 1)
+StartTimer (timer01, 1, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG09.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+SoundEffect (se01, NSE11E.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (13, char, 0
+After changing into my outdoor shoes and leaving the school building, I walked toward the school gate, blending in with the other commuter students while hearing the shouts of the sports club members practicing on the field…%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0002.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBoy')
+DisplayMessage (14, char, 0
+「Hey, wait a sec!」%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+Unk67 (4, 2, 0, 0, 0.25, 50, 50, 0, 0, 0)
+SoundEffect (se02, NSE11F.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (15, char, 0
+Then, I heard a voice calling out from behind me.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (16, char, 0
+But not realizing it was directed at me, I tried to keep walking ahead without paying it any mind.%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se02, 0.5)
+CharMessageStart
+SoundEffect (charCHR, CHR_0003.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBoy')
+DisplayMessage (17, char, 0
+「Hey, wait up, Amagi-kun」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (18, char, 0
+「Eh…!?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (19, char, 0
+Hearing my name called, I realized it was directed at me and stopped in surprise.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG09.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -200, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 0)
+C65 (0, 0, 0, 0.0099999997764826, 0, 2, 0)
+Unk00
+DragBackground (st01, 6, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 1)
+LayerConfig (0, 6, 0, 1)
+LayerConfig (0, 7, 0, 1)
+LayerConfig (0, 8, 0, 1)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+LayerConfig (130, 7, 0, 3)
+LayerConfig (130, 8, 0, 4)
+Effect1 (st01, effect01, 0, 0, 0, 240, 5, 6, 7, 8, 0.30000001192093, 0, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.5, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0004.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBoy')
+DisplayMessage (20, char, 0
+「You finally noticed.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (21, char, 0
+Turning around, I saw one of my classmates standing there, looking at me with a smile.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (22, char, 0
+「Uh… um…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (23, char, 0
+Looking at him, I frantically tried to remember his name.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (24, char, 0
+After all, I'd never spoken to him once since transferring in, and our seats were far apart, so his name didn't come to mind right away.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (25, char, 0
+But that blond hair and dazzlingly handsome face were unmistakable, and there was no doubt he was in my class.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (26, char, 0
+He was definitely that boy who's half-foreign, and I remembered he was popular in class.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (27, char, 0
+And his name was…%K
+);
+Unk0E (11, 0, 3, 0, 1)
+ShowChoice (3
+28, 0, 11, 0, 7, 00_SCN002B
+Sean
+29, 0, 12, 0, 7, 00_SCN002C
+Marco
+30, 0, 13, 0, 7, 00_SCN002D
+Chris
+);
+FileEnd (7, 192, 0, 0, 0)

@@ -1,0 +1,91 @@
+DisplayMessage (0, , 0
+%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (1, char, 0
+「"C… Chris-kun…?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (2, char, 0
+I mumbled the name that lingered vaguely in the corner of my mind.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG09.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0013.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBoy')
+DisplayMessage (3, char, 0
+「Huh, you know me? We've never even talked before.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (4, char, 0
+He sounded a little surprised that I'd guessed it.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (5, char, 0
+「You're kind of hard to miss, so I just remembered you. But I only knew your first name.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG09.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 30)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0014.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (6, char, 0
+「Saionji Chris. Nice to meet you.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (7, char, 0
+With that, he flashed me a bright, refreshing smile.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (8, char, 0
+「N-Nice to meet you too…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (9, char, 0
+I returned the greeting awkwardly, then decided to ask why he'd suddenly come up to me.%K%P
+);
+SetDisplayName (0, '')
+NextFile (00_SCN002E)
+FileEnd (130, 0, 0, 0, 0)

@@ -1,0 +1,5984 @@
+Condition (2, 127, 1, 0, @LABEL_37)
+Condition (130, 110, 1, 0, @LABEL_37)
+Jump (@LABEL_93208)
+@LABEL_37
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0030.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (0, char, 0
+「Just as I thought… I figured it was something like that.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (1, char, 0
+Hearing that, Chris nodded in understanding, murmuring his agreement.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K4.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0031.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (2, char, 0
+「Every time I saw you, I was worried you were starting to get isolated in class.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0032.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (3, char, 0
+「You know, that kind of thing is crucial at the start. If you miss the timing to blend into the group, you just end up sliding deeper into isolation.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (4, char, 0
+That was exactly my situation―the pattern Chris was describing to a tee.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (5, char, 0
+My passive personality had caused me to miss chances to make friends, leading to my current isolation.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K4.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0033.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (6, char, 0
+「I had a hard time when I transferred in too, because of how I look. So I get it.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (7, char, 0
+「Oh… really?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (8, char, 0
+I'd never heard he was a transfer student like me, and it was surprising that he'd struggled because of his looks.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (9, char, 0
+With his striking half-Japanese features, I'd assumed he'd be popular right away.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0034.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (10, char, 0
+「So, I'd been keeping an eye on you pretty often. When I found your keychain today, I thought it was the perfect chance to talk to you.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st02, EFBG00_01.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st02, 6, 0, 0, 1, 1, 1, 0.60000002384186)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (11, char, 0
+He'd been watching out for me that much already? Did he really like me that much?%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (12, char, 0
+Sure, it felt good to be liked, but I couldn't figure out why he'd take such an interest in someone like me.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (13, char, 0
+Compared to Chris with his golden-haired pretty boy looks, I was on the level of a microscopic plankton. What about me caught his eye?%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (14, char, 0
+Well, I could always ask him about that later…%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '%LFMao')
+DisplayMessage (15, char, 0
+「But thanks to that, we got the chance to become friends. Without it, I might've stayed a total loner forever.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (16, char, 0
+I thanked Chris sincerely for it.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (17, char, 0
+The keychain he picked up could be replaced easily enough, but becoming friends with him was worth more than that.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0035.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (18, char, 0
+「So that means… I'm your first friend, huh?」%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.15000000596046, 30, 30, 0, 0, 0)
+SetDisplayName (0, '%LFMao')
+DisplayMessage (19, char, 0
+「Huh…?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (20, char, 0
+The word 'friend' from Chris made me let out a surprised gasp.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (21, char, 0
+I'd thought it was way too soon to call us friends, but apparently to Chris, I was already one of his.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 30)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0036.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (22, char, 0
+「So, looking forward to hanging out more, Mao.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 300, 0, 0)
+MoveBackground (st01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '%LFMao')
+DisplayMessage (23, char, 0
+「Y-Yeah… same here, Chris…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (24, char, 0
+With an awkward smile, I took his outstretched hand and shook it―our friendship handshake.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+ClearLayer (*)
+ShowGraphic (EFMSK_06.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+SoundEffect (se01, NSE11E.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (25, char, 0
+From there, we walked on, sharing more about our backgrounds and family situations to get to know each other better.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+SetTimer (timer01, 0, 1)
+StartTimer (timer01, 1, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+ShowGraphic (EFMSK_53.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -200, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 0)
+C65 (0, 0, 0, 0.25, 0, 0, 0)
+Unk00
+DragBackground (st01, 6, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 1)
+LayerConfig (0, 6, 0, 1)
+LayerConfig (0, 7, 0, 1)
+LayerConfig (0, 8, 0, 1)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+LayerConfig (130, 7, 0, 3)
+LayerConfig (130, 8, 0, 4)
+Effect1 (st01, effect01, 0, 0, 0, 240, 5, 6, 7, 8, 0.30000001192093, 0, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.5, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+SoundUnk1 (se01, 0.5)
+CharMessageStart
+SoundEffect (charCHR, CHR_0037.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (26, char, 0
+「I see… So your family moved here after your dad passed away.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (27, char, 0
+「Yeah, so now it's just me, Mama, and my sister.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0038.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (28, char, 0
+「You call your mom 'Mama' too, huh?」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (29, char, 0
+「Oh… uh… yeah, it's just a habit from when I was a kid…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (30, char, 0
+Chris pointed it out, and my old habit slipped out, letting him know I called her Mama.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (31, char, 0
+I'd been trying to be careful in conversations with others, but I got too excited and let my guard down.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (32, char, 0
+「You said 'you too,' so does that mean you do as well, Chris?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0039.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (33, char, 0
+「Yeah, my mom's originally from England, so it just came naturally.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (34, char, 0
+「Got it. If Mama's a foreigner, that makes total sense.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (35, char, 0
+「In that case, I don't have to worry about calling her Mama.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0040.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (36, char, 0
+「No need to worry about it at all.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (37, char, 0
+His reassurance put me at ease.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (38, char, 0
+Calling her 'Mom' at this point would feel more embarrassing and awkward to me.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (39, char, 0
+「Actually, my current Mama is my dad's remarriage partner―she's my stepmom. My real mom passed away when I was little, so I don't even remember her…」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K9.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0041.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (40, char, 0
+「So both your biological parents are gone.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (41, char, 0
+Hearing about my family, Chris responded with sympathy.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0042.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (42, char, 0
+「Looks like you and I are in pretty similar situations.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (43, char, 0
+「Huh? What do you mean?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (44, char, 0
+His follow-up caught me off guard, and I asked in surprise.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K9.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0043.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (45, char, 0
+「I lost my mom in an accident too, and my current Mama isn't my biological one.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (46, char, 0
+「I see…」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0044.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (47, char, 0
+「My current Mama is actually my real mom's older sister. She lost her husband and had no kids, so she took pity on poor little me and adopted me.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (48, char, 0
+So she's Mama's sister, which means my new Mama is British too…%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0045.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (49, char, 0
+「At first, after suddenly losing my parents, I was at risk of being sent to live with my grandmother in England. But I was born here and had always lived in Japan, so I really didn't want to go.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K5.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0046.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (50, char, 0
+「I mean, I might look like this, but I can barely speak English, and my grades in it were the worst.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (51, char, 0
+With those looks but no English skills, he'd definitely struggle over there.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0047.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (52, char, 0
+「That's why I'm grateful to my current Mama for letting me stay here.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (53, char, 0
+「Huh… Sounds like you had it rough too.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (54, char, 0
+Hearing Chris's story, I realized we'd had such similar experiences, which only made me feel closer to him.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0048.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (55, char, 0
+「But my current Mama is super kind and beautiful, and I love my privileged life with her. What about you?」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (56, char, 0
+「Things are good with Mama at our place too―we get along great and it's a really happy family. Well… my sister and I don't always see eye to eye…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (57, char, 0
+Trying to match him, I boasted confidently about my own family.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K6.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0049.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (58, char, 0
+「Ah-ha… So she's Mama's daughter from before, right?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (59, char, 0
+Chris picked up on it right away and poked at me.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (60, char, 0
+「How'd you know?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0050.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (61, char, 0
+「Just a hunch. I can picture it.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K6.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0051.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (62, char, 0
+「When you're stepsiblings with no blood relation, living under one roof with someone around your age of the opposite sex, you can't help but be aware of them, right?」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (63, char, 0
+「N-No, it's not like that! We just don't get along…」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 1)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (64, char, 0
+Before he got the wrong idea, I set him straight.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (65, char, 0
+I wasn't desperate enough to see my sister that way.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st01)
+ShowGraphic (EFMSK_54.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (bg02, EFBG00_01.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg02, 6, 0, 0, 1, 1, 1, 0.60000002384186)
+ShowGraphic (EFMSK_10.PNG)
+C65 (100, 0, 0, 0.5, 0, 0, 0)
+Unk00
+SoundEffect (se01, NSE11E.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (66, char, 0
+Chatting casually like that, we made steady progress on the way home, arriving at my house before I knew it…%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+ClearLayer (*)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+SetTimer (timer01, 0, 2)
+StartTimer (timer01, 1, 0)
+Unk00
+SoundUnk1 (se01, 0.5)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+ShowGraphic (EFMSK_54.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+SetDisplayName (0, '%LFMao')
+DisplayMessage (67, char, 0
+「Oh… This is my house…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (68, char, 0
+When we reached it, I stopped and said so.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -200, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 0)
+C65 (0, 0, 0, 0.0099999997764826, 0, 2, 0)
+Unk00
+DragBackground (st01, 6, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 1)
+LayerConfig (0, 6, 0, 1)
+LayerConfig (0, 7, 0, 1)
+LayerConfig (0, 8, 0, 1)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+LayerConfig (130, 7, 0, 3)
+LayerConfig (130, 8, 0, 4)
+Effect1 (st01, effect01, 0, 0, 0, 240, 5, 6, 7, 8, 0.30000001192093, 0, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.5, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0052.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (69, char, 0
+「Huh, so this is your place, Mao. It really is close to mine.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (70, char, 0
+Chris looked up at my house as he said it.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (71, char, 0
+「It's a rental that Mama's relative let us have.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0053.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (72, char, 0
+「Nice place. This area's pretty livable.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (73, char, 0
+If Chris, who lived nearby, said so, it had to be true.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (74, char, 0
+「Your house seems close too. How far is it from here?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0054.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (75, char, 0
+「Hmm… About a five-minute walk from here.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (76, char, 0
+Five minutes on foot was definitely 'just around the corner.'%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0055.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (77, char, 0
+「Hey, if you want, why don't you come over to my place? I'd like to show you where I live anyway.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (78, char, 0
+「Huh…? Right now?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (79, char, 0
+His sudden invitation left me unsure what to do.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0056.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (80, char, 0
+「Pretty great, right? We've still got so much more to talk about, and it'd be a shame to split up here.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 300, 0, 0)
+MoveBackground (st01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0057.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (81, char, 0
+「So, let's head to my place and keep chatting about all sorts of stuff, yeah?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (82, char, 0
+Chris says that and keeps pushing me insistently.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (83, char, 0
+Overwhelmed by his enthusiasm, I gradually start to warm up to the idea…%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (84, char, 0
+「W-Well then… I guess I'll take you up on that and drop by for a bit…」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 300, 0, 0)
+MoveBackground (st01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (85, char, 0
+As I say that, Chris breaks into a wide grin and grabs my hand tight.%K%P
+);
+SetDisplayName (0, '')
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0058.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (86, char, 0
+「That's the spirit! Don't just make it a quick visit―stay as long as you want. We've got tons to catch up on, and plenty of snacks and juice too.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (87, char, 0
+And just like that, we decide to head to Chris's house, so we start walking there together.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+SetBackground (st01, TG03K8.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 300, 0, 0)
+MoveBackground (st01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0059.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (88, char, 0
+「Hold up―isn't that your mom?」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (89, char, 0
+「Huh…?」%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+SetBackground (bg02, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, -950, -340, 0, 0)
+MoveBackground (bg02, 2, 0, 0, 2, 2, 0, 0)
+ClearLayer (st01)
+ShowGraphic (EFMSK_54.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (90, char, 0
+But the moment I turn my back to our house, Chris points at a figure walking toward us from across the street and says that.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (91, char, 0
+His eyesight must be amazing, because from this distance, I still couldn't tell it was my mom.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (92, char, 0
+「She looks like Mom, but I can't say for sure yet…」%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+ClearLayer (bg02)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 300, 0, 0)
+MoveBackground (st01, 2, 0, 0, 1.7000000476837, 1.7000000476837, 0, 0)
+ShowGraphic (EFMSK_53.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0060.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (93, char, 0
+「Then let's wait a sec and see.」%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (st01)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (94, char, 0
+Following Chris's suggestion, we wait for the person to get closer.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (95, char, 0
+After a short wait, the figure comes right up to us.%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, NSE11E.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 6, 0, 0, 1, 1, 1, 0)
+C65 (0, 0, 0, 0.0099999997764826, 0, 2, 0)
+Unk00
+DragBackground (st01, 6, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 1)
+LayerConfig (0, 6, 0, 1)
+LayerConfig (0, 7, 0, 1)
+LayerConfig (0, 8, 0, 1)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+LayerConfig (130, 7, 0, 3)
+LayerConfig (130, 8, 0, 4)
+Effect1 (st01, effect01, 0, 0, 0, 240, 5, 6, 7, 8, 0.5, 0, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -400)
+LayerConfig (0, 6, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.5, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charMAM, MAM_0011.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (96, char, 0
+「Oh, what are you doing standing out front?」%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '')
+DisplayMessage (97, char, 0
+And sure enough, it was my mom, just like Chris said.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (98, char, 0
+I couldn't hide my shock that he'd recognized her from so far away. Plus, this should be his first time meeting her―how did he know?%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (99, char, 0
+She and I aren't blood-related, so we don't look anything alike…%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (100, char, 0
+「Welcome home, Mom. I just got back too and happened to spot you coming home.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charMAM, MAM_0012.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (101, char, 0
+「Oh, I see. And who's this boy…?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (102, char, 0
+Mom says that and turns her eyes to Chris standing beside me.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+DragBackground (st02, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 30)
+Effect1 (st02, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st02, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+Effect2 (st02, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st02, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0061.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (103, char, 0
+「Nice to meet you. I'm Saionji Chris, Mao-kun's friend.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (104, char, 0
+Before I could introduce him, Chris steps forward and politely greets my mom.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 30)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charMAM, MAM_0013.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (105, char, 0
+「Oh, you're Mao-kun's friend. Nice to meet you―please get along well with our Mao.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charMAM, MAM_0014.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (106, char, 0
+「That said, I never imagined you'd actually bring a friend home.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B6.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charMAM, MAM_0015.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (107, char, 0
+「I did tell you the other day to invite a new friend over, but I didn't think it'd happen this soon. I haven't prepared anything.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charMAM, MAM_0016.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (108, char, 0
+「Sorry about that. I guess I was doubting whether you'd made any friends yet…」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (109, char, 0
+「Haha…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (110, char, 0
+With Mom blabbing all that extra stuff, I could only laugh awkwardly to cover my embarrassment.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (111, char, 0
+「A-Anyway, you're home early today―what's up?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (112, char, 0
+I ask Mom about it, since she's home earlier than usual.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (113, char, 0
+She shouldn't be done with her part-time shift yet at this hour.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charMAM, MAM_0017.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (114, char, 0
+「I had some business today, so I asked to switch shifts and leave early.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (115, char, 0
+「I see.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charMAM, MAM_0018.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (116, char, 0
+「I want to pick up another part-time job if possible, so I've got an interview to get to now.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (117, char, 0
+「Another part-time job? But you already said the ones you have are tough―do you really have the bandwidth?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (118, char, 0
+Worried about Mom, who's already juggling several part-time gigs, I ask her about it.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charMAM, MAM_0019.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (119, char, 0
+「I have to do what I can to make life a little easier… Besides, it's tough, but I can handle one more.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (120, char, 0
+「If you say so… Just don't push yourself too hard.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (121, char, 0
+I know she's putting on a brave front, but I also understand our family finances are tight, so I decide not to press further.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 30)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charMAM, MAM_0020.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (122, char, 0
+「That's why I've got to head out for this interview. Sorry I can't offer you boys anything even though you came by.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st02, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st02, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st02, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st02, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st02, 0, 0)
+DragBackground (st02, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st02, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st02, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st02, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st02, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0062.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (123, char, 0
+「No need to worry. Besides, he's actually coming to my place from here, so we're good.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B10.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charMAM, MAM_0021.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (124, char, 0
+「Oh, you're not coming here to play?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B10.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st02, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 30)
+Effect1 (st02, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st02, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+Effect2 (st02, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st02, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0063.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (125, char, 0
+「We'll stop by another time.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (126, char, 0
+「Yeah, so I'm heading to Chris's place now.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charMAM, MAM_0022.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (127, char, 0
+「I see. I jumped to conclusions.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (128, char, 0
+Mom listens to our exchange and laughs a bit sheepishly.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG03.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (st01, TG01B2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, -400, 0, 0, 0)
+SetBackground (st02, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 400, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charMAM, MAM_0023.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMami')
+DisplayMessage (129, char, 0
+「Don't stay out too late. And say hi to his parents for me.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (130, char, 0
+「Got it. See you later.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (131, char, 0
+With that, Chris and I turn away from Mom and head off toward his house…%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+ClearLayer (*)
+ShowGraphic (EFMSK_12.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+SetTimer (timer01, 0, 2)
+StartTimer (timer01, 1, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+ShowGraphic (EFMSK_11.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0064.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (132, char, 0
+「Your mom seems to have a lot on her plate, huh.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (133, char, 0
+As we walk, Chris―who overheard everything―suddenly asks me that.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (134, char, 0
+「Yeah, I feel bad putting so much burden on her.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0065.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (135, char, 0
+「That said, your mom's super beautiful and gorgeous.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (136, char, 0
+「Y-You think so? Well, she is pretty, I guess…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (137, char, 0
+Hearing someone praise my mom to her face made me a little embarrassed, so I replied like that.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (138, char, 0
+Maybe that's just how half-Japanese people are―pretty frank with their compliments.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K6.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0066.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (139, char, 0
+「Great figure too―she looks young. Bet she was super popular back in the day.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (140, char, 0
+「I-I dunno. Never asked her…」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K10.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0067.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (141, char, 0
+「She had big boobs too. Do you ever bathe with her and see her naked?」%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.25, 20, 20, 0, 0, 0)
+SetDisplayName (0, '%LFMao')
+DisplayMessage (142, char, 0
+「Wha―!? N-No way! I'm not a kid anymore―we don't bathe together!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (143, char, 0
+Stunned by Chris's outrageous question out of nowhere, I choke and sputter.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0068.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (144, char, 0
+「Huh? At my place, I still hop in the bath with Mom sometimes.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (145, char, 0
+「F-For real!? B-But… isn't that normal overseas or something…?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st02, EFBG00_01.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st02, 6, 0, 0, 1, 1, 1, 0.69999998807907)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (146, char, 0
+Hearing that shocks me so much I start floundering in confusion.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (147, char, 0
+Even thinking calmly about it, bathing with your parent at our age is weird, overseas or not.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (148, char, 0
+A regular bathtub couldn't fit two people comfortably anyway.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (149, char, 0
+Maybe Chris's family has some massive bath…%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (150, char, 0
+Still puzzling over it without any real answers, we arrive at his house after about five minutes of walking, just like he said.%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, NSE11E.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+ExecuteFunction (GetMsgSkip, , 231, 3, 1)
+Condition (2, 999, 1, @LABEL_54864, @LABEL_54881)
+StopMusic (bgm01, 0)
+Jump2 (@LABEL_54881)
+@LABEL_54864
+StopMusic (bgm01, 1)
+@LABEL_54881
+Unk16 (0, 0)
+Unk64 (0)
+ClearLayer (*)
+ShowGraphic (EFMSK_53.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+SetTimer (timer01, 0, 1)
+StartTimer (timer01, 1, 0)
+Unk00
+SoundUnk1 (se01, 0.5)
+PlayMusic (bgm01, BGM02.OGG, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 10, 0, 1, 0, 0, 0, 0)
+SetFlag (1081, 1)
+SoundEffect (se01, WBSE_159.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG12C.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+ShowGraphic (EFMSK_53.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG12C.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0069.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (151, char, 0
+「Here's my place.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (152, char, 0
+「Wh-What is this mansion…?」%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG12C.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st01)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (153, char, 0
+I stare in awe at the luxurious, modern house in front of me and blurt that out.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (154, char, 0
+A sprawling lot with a huge, stylish building right there before my eyes.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (155, char, 0
+Judging by the surrounding wall, it's enormous―my tiny house could fit inside several times over.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (156, char, 0
+Peeking through gaps in the wall, I spot a massive garden with an outdoor pool―a total celebrity mansion vibe.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG12C.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0070.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (157, char, 0
+「So…?」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (158, char, 0
+「Y-You're loaded!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (159, char, 0
+I give Chris, who's waiting for my reaction, that one-word impression.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG12C.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K5.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0071.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (160, char, 0
+「Heh… you don't have to say it so bluntly.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (161, char, 0
+At my reaction, Chris gave a slightly embarrassed laugh.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (162, char, 0
+「What is this car!? A supercar? How much does this thing cost?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (163, char, 0
+I blurted that out in shock at the expensive luxury sports car parked in the garage.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (164, char, 0
+Even I, who knows nothing about cars, could easily imagine it cost a fortune. I've only ever seen cars like this in games or movies, and to think one is just casually parked in the garage… he wasn't just rich; this was next level.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG12C.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0072.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (165, char, 0
+「That's the second car, though. Mama has another one she loves, but it looks like she's out with it for work right now.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (166, char, 0
+「You have another one like this!? That's totally celebrity status!」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG12C.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0073.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (167, char, 0
+「You're exaggerating… Even if we are celebrities, it's all thanks to Mama. I'm just riding her coattails.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (168, char, 0
+「Talk about winning the parent lottery… or in your case, the adoption lottery.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (169, char, 0
+I was getting all hyped up on my own over Chris's super celebrity lifestyle.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG12C.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0074.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (170, char, 0
+「Alright, alright, that's enough house tour for now. Let's head inside.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (171, char, 0
+「O-Okay…」%K%P
+);
+SetDisplayName (0, '')
+DragBackground (st01, 6, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 1)
+LayerConfig (0, 6, 0, 1)
+LayerConfig (0, 7, 0, 1)
+LayerConfig (0, 8, 0, 0)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+LayerConfig (130, 7, 0, 3)
+LayerConfig (130, 8, 0, 4)
+Effect1 (st01, effect01, 0, 0, 0, 240, 5, 6, 7, 8, 0.30000001192093, 0, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 200)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.5, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (172, char, 0
+I took a deep breath to calm myself a bit, then followed Chris into the mansion.%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, WBSE_112.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+Unk16 (0, 0)
+Unk64 (0)
+ClearLayer (*)
+ShowGraphic (EFMSK_53.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+SetTimer (timer01, 0, 1)
+StartTimer (timer01, 1, 0)
+Unk00
+SoundUnk1 (se01, 0.5)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, -300, -150, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+C65 (0, 0, 0, 1, 0, 0, 0)
+Unk00
+DragBackground (bg01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 300)
+LayerConfig (0, 6, 0, -150)
+DragBackground (bg01, 0, 0, 1, 2, 3, 4)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+Effect1 (bg01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 60, 0, 0, 0)
+Effect2 (bg01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (bg01, 0, 0)
+SetDisplayName (0, '%LFMao')
+DisplayMessage (173, char, 0
+「S-sorry to intrude…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (174, char, 0
+I timidly stepped inside, and right away, a massive living room opened up before me.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (175, char, 0
+Just as I'd imagined, the outside was impressive, but the inside was every bit as stunning.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (176, char, 0
+「Whoa…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (177, char, 0
+The living room was several times bigger than mine, and every piece of furniture and appliance had a stylish design that screamed celebrity vibes.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (178, char, 0
+Out the window, the impressive pool we'd seen from outside stretched across the yard. It was straight out of a movie about rich people mansions.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, -300, -150, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ShowGraphic (EFMSK_54.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0075.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (179, char, 0
+「Make yourself at home. Before we go to my room, I'll grab some juice and snacks. Hang on a sec.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (180, char, 0
+With that, Chris started pulling stuff out of the fridge and cabinets in the kitchen to prepare.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (181, char, 0
+「What about your mom?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+ClearLayer (bg01)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0076.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (182, char, 0
+「Mama's out for work today. But she said she wouldn't be late, so she'll probably be back soon.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+ClearLayer (bg01)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J4.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0077.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (183, char, 0
+「Mama's a busy person, so she's rarely home during the day. Sometimes she even heads out super late at night when things get hectic. Being a celebrity doesn't seem easy.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (184, char, 0
+「Hmm…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (185, char, 0
+For some reason, that made perfect sense to me.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (186, char, 0
+Rich people must have their own rich people problems.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (187, char, 0
+Otherwise, no one could live in a mansion like this so easily.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (188, char, 0
+「So, who exactly is your mom?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (189, char, 0
+I straight-up asked Chris the question that had been bugging me.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+ClearLayer (bg01)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0078.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (190, char, 0
+「She's not that special.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+ClearLayer (bg01)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0079.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (191, char, 0
+「Simply put, she runs a company in the video production business.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (192, char, 0
+「Video production, huh… Like TV stuff?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+ClearLayer (bg01)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0080.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (193, char, 0
+「Nah, more like internet-related. It was originally a company my late dad started, and Mama took it over.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (194, char, 0
+「So your mom's the president of the company now?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+ClearLayer (bg01)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0081.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (195, char, 0
+「Yeah. Though it's a small company with just a few staff.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (196, char, 0
+Even so, living in a mansion like this and owning multiple luxury cars, it has to be raking in serious money…%K%P
+);
+SetDisplayName (0, '')
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0082.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (197, char, 0
+「But after Mama took over as president, the business apparently grew way more than before. She must've had real talent for it.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+ClearLayer (bg01)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0083.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (198, char, 0
+「She's super talented and can do anything, so even as president, she directs, films, edits―when she's swamped, she works nonstop and barely pays attention to me. I help out with her work when I'm free.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (199, char, 0
+「Huh… So you'll work under her someday too?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+ClearLayer (bg01)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J9.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0084.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (200, char, 0
+「Who knows. I haven't thought that far ahead. It's pretty intense work, after all.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (201, char, 0
+「Hmm…」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+ClearLayer (bg01)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J9.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st02, EFBG00_01.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st02, 6, 0, 0, 1, 1, 1, 0.69999998807907)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (202, char, 0
+I got the gist of his family situation, but honestly, I couldn't help feeling jealous of living in such a privileged environment without a care in the world.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (203, char, 0
+Not that I was unhappy with my own family, but who wouldn't dream of a celebrity lifestyle like this?%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+ClearLayer (bg01)
+SetBackground (bg02, BG13.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0085.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (204, char, 0
+「Alright, snacks are ready. Let's head to my room.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (205, char, 0
+「Yeah.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (206, char, 0
+With that, Chris and I headed up the stairs to his room on the second floor.%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, NSE11G.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+Unk16 (0, 0)
+Unk64 (0)
+ClearLayer (*)
+ShowGraphic (EFMSK_54.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+SetTimer (timer01, 0, 1)
+StartTimer (timer01, 1, 0)
+Unk00
+SoundUnk1 (se01, 0.5)
+SoundEffect (se01, EMSE_021.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (207, char, 0
+*Click*…%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+ShowGraphic (EFMSK_53.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0086.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (208, char, 0
+「Come on in. This is my room.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (209, char, 0
+As I stepped inside, the first thing that caught my eye was the huge desk with massive gaming monitors lined up on it, and a beast of a tower PC.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (210, char, 0
+「Th-that's an insane PC… How much did it cost?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (211, char, 0
+I didn't even need to ask; I could tell it was a top-of-the-line, high-spec machine.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (212, char, 0
+Its performance had to be worlds apart from my outdated laptop.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0087.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (213, char, 0
+「Mama bought it for me, so I'm not totally sure, but I think the tower alone was around 600,000 yen.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (214, char, 0
+「S-six…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (215, char, 0
+I was seriously jealous of parents who could just drop that kind of cash on a PC for their kid. I had to bust my ass with a summer job to scrape together enough for mine…%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (216, char, 0
+And even then, I skimped on performance to stay within budget.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (217, char, 0
+「You're not even a streamer―why use a high-end PC like that!? Do you do game streaming or something?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J8.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 0)
+LayerConfig (0, 6, 0, 15)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0088.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (218, char, 0
+「No way, nothing that bold. I mainly use it to help Mama with video editing, so she got me the best one for the job.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (219, char, 0
+「Y-yeah, that makes sense.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (220, char, 0
+That was a perfectly good reason, so I had to accept it.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (221, char, 0
+In a way, it was way more productive than how I used mine, mostly for games and the internet.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J1.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0089.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (222, char, 0
+「I've got all the latest gaming consoles too, so let's play some later.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (223, char, 0
+Sure enough, there was a big TV mounted on the wall, with a rack below holding a lineup of major consoles, and next to it, shelves packed with game cases.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (224, char, 0
+「Did your mom buy all that too?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0090.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (225, char, 0
+「Pretty much. But she didn't just hand it over for free―it was a reward for helping with her work, so it's fair trade.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (226, char, 0
+I had no idea what kind of work it was, but getting all this just for helping out… rich kid perks were on another level.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0091.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (227, char, 0
+「Next door, there's a whole collection room for manga and figures too.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (228, char, 0
+「What!? I'm past jealous―now I'm just pissed off.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (229, char, 0
+I told Chris exactly how I felt.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (230, char, 0
+It was like having a prime example of winning the parent lottery shoved in my face.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0092.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (231, char, 0
+「Heh… no need to be so jealous. I'm not trying to brag.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (232, char, 0
+「Feels like I've been bragged to plenty already!」%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st01)
+SetBackground (st02, EFBG00_01.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st02, 6, 0, 0, 1, 1, 1, 0.60000002384186)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (233, char, 0
+And so, while munching on the juice and snacks Chris prepared, we picked up our conversation from the walk home.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (234, char, 0
+Once we got tired of that, he let me play the latest games on his prized PC.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (235, char, 0
+My old laptop couldn't handle the newest games at high settings no matter what, so I'd given up on a bunch I wanted to try. But his high-end rig ran them smoothly at max quality.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (236, char, 0
+Plus, with his deep pockets, he had almost every big title installed. I dove right into ones I'd always wanted to play…%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0093.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (237, char, 0
+「So, satisfied?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (238, char, 0
+After trying out a bunch of the latest games, Chris―who'd been watching over my shoulder―asked me that.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (239, char, 0
+「Yeah, as expected from the price tag―the frame rate's rock solid. No stuttering at all. Totally different from my home PC.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (240, char, 0
+I tell Chris my honest thoughts.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (241, char, 0
+「I'd love to upgrade to a PC like this if I had the money, but that's just a pipe dream.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0094.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (242, char, 0
+「Why don't you just ask your mom?」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (243, char, 0
+「It's not like your family. There's no way we could afford that.」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (244, char, 0
+「Mom's juggling multiple part-time jobs just to make ends meet. I could never ask her for something like that.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (245, char, 0
+Feeling envious of Chris, I let out a resigned sigh.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0095.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (246, char, 0
+「Heh, I was just kidding.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (247, char, 0
+With that, Chris flashes me a mischievous grin.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J5.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0096.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (248, char, 0
+「Oops… I think I drank a bit too much juice. I gotta use the bathroom, so I'll be right back.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (249, char, 0
+With that sudden announcement, Chris heads for the door.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03J2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0097.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (250, char, 0
+「So feel free to use the computer while I'm gone.」%K%P
+);
+SetDisplayName (0, '')
+DragBackground (st01, 6, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 1)
+LayerConfig (0, 6, 0, 1)
+LayerConfig (0, 7, 0, 1)
+LayerConfig (0, 8, 0, 0)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+LayerConfig (130, 7, 0, 3)
+LayerConfig (130, 8, 0, 4)
+Effect1 (st01, effect01, 0, 0, 0, 240, 5, 6, 7, 8, 0.30000001192093, 0, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 200)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.5, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+SetDisplayName (0, '%LFMao')
+DisplayMessage (251, char, 0
+「Sure, take your time…」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, EMSE_021A.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (252, char, 0
+*Click… slam…*%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+Unk16 (0, 0)
+Unk64 (0)
+ClearLayer (*)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (253, char, 0
+Once Chris leaves the room, I'm left alone and decide to wait quietly for him to return.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (254, char, 0
+「…………」%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 800, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+ClearLayer (st02)
+ShowGraphic (EFMSK_04.PNG)
+C65 (100, 0, 0, 1, 0, 0, 0)
+Unk00
+DragBackground (bg01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 200)
+LayerConfig (0, 6, 0, 0)
+DragBackground (bg01, 0, 0, 1, 2, 3, 4)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+Effect1 (bg01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 60, 0, 0, 0)
+Effect2 (bg01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (bg01, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (255, char, 0
+After waiting a bit with no sign of Chris coming back, I reach for the mouse on the desk, figuring I might as well kill some time browsing the net on his PC.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (256, char, 0
+「But first…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (257, char, 0
+Muttering to myself, I move the cursor around, scanning the folders and icons on the desktop.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (258, char, 0
+「He's definitely got some hidden ero pics somewhere…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (259, char, 0
+As if it's a given in situations like this, my mischievous side takes over, and I start hunting for Chris's secret porn stash to peek at his hidden side.%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, EMSE_078.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '%LFMao')
+DisplayMessage (260, char, 0
+「There's quite a few folders here…」%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '%LFMao')
+DisplayMessage (261, char, 0
+「But stuff like this is usually right there on the desktop in a shortcut or folder. That's how it always goes…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (262, char, 0
+The desktop was lined with various folders and shortcuts.%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, EMSE_077.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (263, char, 0
+None of the folder names looked suspicious, and opening them at random just showed a bunch of unrecognizable files―no sign of any naughty images.%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '%LFMao')
+DisplayMessage (264, char, 0
+「Hm…?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (265, char, 0
+But then my eyes catch on a folder sitting all by itself, oddly isolated from the rest.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (266, char, 0
+It was simply labeled 'H', standing out clearly from the others.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (267, char, 0
+「That looks super suspicious…」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, EMSE_078.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (268, char, 0
+I open it on a whim, and inside is yet another folder labeled 'H'.%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '')
+DisplayMessage (269, char, 0
+Opening that reveals… another 'H' folder.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (270, char, 0
+「What a waste of time…」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, EMSE_078.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (271, char, 0
+Irritated by the lame camouflage, I keep digging deeper into the folders.%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '')
+DisplayMessage (272, char, 0
+After repeating this about five times, I finally reach the end.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (273, char, 0
+「Let's see what we've got…」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, EMSE_077.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (274, char, 0
+The final folder contained a ton of video files, each named with what looked like dates.%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '%LFMao')
+DisplayMessage (275, char, 0
+「Some kinda porno videos, maybe…?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (276, char, 0
+Each file had a decent size, suggesting they were videos of some length.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (277, char, 0
+「Might as well open one at random…」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, EMSE_078.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (278, char, 0
+Muttering to myself, I click on what looks like the newest file, full of anticipation.%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+ExecuteFunction (GetMsgSkip, , 231, 3, 1)
+Condition (2, 999, 1, @LABEL_93166, @LABEL_93183)
+StopMusic (bgm01, 0)
+Jump2 (@LABEL_93183)
+@LABEL_93166
+StopMusic (bgm01, 1)
+@LABEL_93183
+Unk16 (0, 0)
+Unk64 (0)
+ClearLayer (*)
+C65 (0, 0, 0, 1.5, 0, 2, 0)
+Unk00
+@LABEL_93208
+SetDisplayName (0, '')
+DisplayMessage (279, char, 0
+The video player launches, and the video starts playing full-screen on the monitor.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (280, char, 0
+The screen stays black for a while, and then after a few seconds, the image suddenly appears.%K%P
+);
+SetDisplayName (0, '')
+PlayMusic (bgm01, BGM04.OGG, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 10, 0, 1, 0, 0, 0, 0)
+SetFlag (1083, 1)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01O.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1636, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+SetDisplayName (0, '%LFMao')
+DisplayMessage (281, char, 0
+「Wha―!?」%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.20000000298023, 30, 30, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (282, char, 0
+I can't help but cry out at the sight on the monitor.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (283, char, 0
+There was Chris, entwined in a half-naked embrace with a mystery beauty.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (284, char, 0
+「I-Is this… a video Chris filmed himself!?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (285, char, 0
+I'd figured it was some commercial porn, but no―this was clearly a private video he'd shot himself.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (286, char, 0
+The location was unmistakably this very room, and the bed they were on was definitely the one right here.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (287, char, 0
+And since it was a private recording, there was no mosaic censorship or any other editing.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (288, char, 0
+「Wh-Who the hell is this beauty…?」%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01A.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1622, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (ev02, EE01A.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1622, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev02, 0, 0, 0, 120, 1200, 0, 0)
+MoveBackground (ev02, 1, 0, 0, 0, 0, -90, 0)
+MoveBackground (ev02, 2, 0, 0, 2, 2, 0, 0)
+ShowGraphic (EFMSK_10.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (289, char, 0
+Everything was shocking, but what really grabbed my attention was the stunning woman sharing the bed with Chris.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (290, char, 0
+It was obvious she was quite a bit older than Chris, but her gorgeous face and killer figure were utterly captivating.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (291, char, 0
+Like Chris, she had beautiful blonde hair and blue eyes―they looked just like mother and son.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (292, char, 0
+「No way…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (293, char, 0
+In that instant, I imagine she might be the very 'Mama' Chris always talks about.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (294, char, 0
+And the answer comes right away.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01A.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1622, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+ShowGraphic (EFMSK_11.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0098.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (295, char, 0
+「Mama… can I put it in now?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0001.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (296, char, 0
+「Fine, fine… Mama's tired, so let's make this quick.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (297, char, 0
+Just as I'd guessed, the beauty on screen was definitely Chris's mom.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (298, char, 0
+She had the perfect body befitting a celebrity, even more stunning than I'd imagined.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (299, char, 0
+She's Chris's biological aunt by blood? No, wait―his real mother. She should be around the same age as my mom, but her looks and glowing skin made her seem so youthful. Her bare tits were firm and huge, the kind you just want to suck on.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (300, char, 0
+「*Gulp…*」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (301, char, 0
+I stare at the screen intently, swallowing hard, and silently watch whatever they're about to do next…%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0099.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (302, char, 0
+「That's what you say, but you're already soaking wet and wanting it, aren't you, Mama?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0002.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (303, char, 0
+「Oh? How'd you know?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0100.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (304, char, 0
+'Cause I can smell that naughty scent wafting from the stain on your panties.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0003.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (305, char, 0
+「Heh, busted. Truth is, Mama's pussy has been dripping and aching down there for a while now.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (306, char, 0
+Sure enough, a huge wet stain from her crotch fluids is visible on her panties.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0101.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (307, char, 0
+「See? Mine's already like this. If I don't get inside you soon, I'm gonna blow.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (308, char, 0
+With that, Chris lifts his hips and strips off the panties covering his crotch.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01B.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1623, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk67 (4, 2, 0, 0, 0.20000000298023, 30, 30, 0, 0, 0)
+SoundEffect (se01, EMSE_068C.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (309, char, 0
+*Boing! *%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '')
+DisplayMessage (310, char, 0
+His penis springs free from the panties, slapping hard against the woman called Mama's crotch and bouncing back.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (311, char, 0
+Of course, being a private video, Chris's cock was completely uncensored and in plain view.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (ev01, EE01B.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1623, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (ev02, EE01B.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1623, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev02, 0, 0, 0, 120, 1200, 0, 0)
+MoveBackground (ev02, 1, 0, 0, 0, 0, -90, 0)
+MoveBackground (ev02, 2, 0, 0, 2, 2, 0, 0)
+ShowGraphic (EFMSK_10.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charKUR, KUR_0004.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (312, char, 0
+「Ah! Still as vigorous as ever. Rock-hard already, and I milked you dry yesterday―guess it wasn't enough.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0102.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (313, char, 0
+「I'm young―I can't hold back if you don't jerk me off every day.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (314, char, 0
+Chris pleads in a spoiled tone while his beautiful cock, with a bit of foreskin left, twitches eagerly.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (ev01, EE01B.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1623, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charKUR, KUR_0005.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (315, char, 0
+「What am I gonna do with you… Fine, tonight Mama will drain every last drop of sperm from those balls so you can sleep well.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0103.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (316, char, 0
+「Then hurry up and take off your panties too, Mama!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0006.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (317, char, 0
+「No need to rush―I'll let you in soon enough.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (318, char, 0
+With that, Chris's mom slowly slides down her stained panties.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01C.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1624, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (ev02, EE01C.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1624, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev02, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+SoundEffect (se01, EMSE_068C.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (319, char, 0
+*Rustle…*%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+DragBackground (ev02, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 920)
+LayerConfig (0, 6, 0, -440)
+DragBackground (ev02, 0, 0, 1, 2, 3, 4)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+Effect1 (ev02, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 20, 0, 0, 0)
+DragBackground (ev02, 2, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 2)
+LayerConfig (0, 6, 0, 2)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+Effect1 (ev02, effect01, 2, 0, 0, 192, 5, 6, 0, 0, 20, 0, 0, 0)
+Effect2 (ev02, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (ev02, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (320, char, 0
+Once her panties were removed from between her legs, her exposed pussy was completely hairless, shaved smooth like a little girl's.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (321, char, 0
+Just like Chris's, her pussy was uncensored and clearly visible in sharp detail. Being a mature woman's organ without any hair made every fine detail stand out perfectly.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (322, char, 0
+And at the same time, I noticed the blonde pubic hair under her arms, in stark contrast to her crotch.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (323, char, 0
+It was hard to spot at first because of the blonde color, but up close, there were several long, untrimmed hairs growing there.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (324, char, 0
+I couldn't help but wonder why her pussy was shaved completely smooth while her armpits were left untouched.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (325, char, 0
+But that very contrast made her seem even more lewd, stirring my excitement even further…%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (ev01, EE01C.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1624, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+Effect3 (ev02, effect01)
+CharMessageStart
+SoundEffect (charKUR, KUR_0007.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (326, char, 0
+「Come on, that's it. Now rub that cock nice and slow against my soaked pussy… I'll get it all slippery with my juices.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0104.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (327, char, 0
+「Yeah, here I go…」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se09, EMSE_011A.OGG, 0, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (328, char, 0
+Schlup… Squish… Squelch… Schlup… Jup…%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (329, char, 0
+Taking that as his cue, Chris slowly began moving his hips, rubbing his penis against her crotch and carefully coating it with her love juices.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0105.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (330, char, 0
+「Ngh… Khufu… Kuuh… Nfuu…」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0008.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (331, char, 0
+「Ahn… Mm… Mm… That's it, just like that…」%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.30000001192093, 40, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (332, char, 0
+Squish… Schlup… Squish… Squelch… Schlup…%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0106.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (333, char, 0
+「Ngh… Kuuh…! C-Can I put it in now?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0009.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (334, char, 0
+「Yes… come here.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (335, char, 0
+Once he confirmed his penis was plenty slick with her juices, Chris took his mom's words as the signal. He pressed the tip of his pink glans against her vaginal entrance and thrust his hips forward in one smooth motion, sliding his penis deep inside her.%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se09, 0.5)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01D.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1625, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk67 (4, 2, 0, 0, 0.30000001192093, 40, 40, 0, 0, 0)
+SoundEffect (se01, EMSE_016A.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (336, char, 0
+Znyuuurururuu…!%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+CharMessageStart
+SoundEffect (charCHR, CHR_0107.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (337, char, 0
+「Khufuuuuu…!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0010.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (338, char, 0
+「Nh aaaah…!」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (bgvkur, SV_KUR_04.OGG, 0.5, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (339, char, 0
+As their genitals joined together, moans of pleasure escaped both their mouths at once.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (340, char, 0
+The sight of Chris's youthful penis being swallowed up by the blonde beauty's mature labia was stimulating enough all on its own.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0108.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (341, char, 0
+「Mama's pussy feels so incredible inside…」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0011.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (342, char, 0
+「Your cock feels amazing to me too, Chris.」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (ev01, EE01D.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1625, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (ev02, EE01D.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1625, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev02, 0, 0, 0, 120, 1200, 0, 0)
+MoveBackground (ev02, 1, 0, 0, 0, 0, -90, 0)
+MoveBackground (ev02, 2, 0, 0, 2, 2, 0, 0)
+ShowGraphic (EFMSK_10.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0109.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (343, char, 0
+「Can I start moving?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0012.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (344, char, 0
+「Go ahead… make me feel good.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0110.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (345, char, 0
+「Leave it to me.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (346, char, 0
+With that, Chris began slowly rocking his hips with his penis still buried inside her.%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se09, EMSE_002A.OGG, 0, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SoundUnk1 (bgvkur, 0.5)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01E.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1626, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (ev02, EE01E.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1626, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev02, 0, 0, 0, 120, 1200, 0, 0)
+MoveBackground (ev02, 1, 0, 0, 0, 0, -90, 0)
+MoveBackground (ev02, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (bg01, EE01E.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1626, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 900, -430, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+ShowGraphic (EFMSK_11.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+DragBackground (bg01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 20)
+LayerConfig (0, 6, 0, 0)
+Effect1 (bg01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (bg01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+Effect2 (bg01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (bg01, 0, 0)
+DragBackground (bg01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -20)
+LayerConfig (0, 6, 0, 0)
+Effect1 (bg01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (bg01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.30000001192093, 0, 0, 0)
+Effect2 (bg01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (bg01, 0, 0)
+SoundEffect (bgvkur, SV_KUR_07.OGG, 0.5, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (347, char, 0
+Schlup… Squish… Squelch… Schlup… Jup…!%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0111.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (348, char, 0
+「Haa… Haa… Ngh… Kuuh…!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0013.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (349, char, 0
+「Mm… Nfuu… Ah… Ahn…!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (350, char, 0
+The two moved their hips against each other, stimulating one another's genitals and devouring the pleasure.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (351, char, 0
+With every thrust, lewd squelching sounds came from their joined bodies. Chris's penis quickly grew slick with her juices, which soon began turning white and frothy.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (ev01, EE01E.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1626, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+ClearLayer (bg01)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+Unk67 (4, 2, 0, 0, 0.30000001192093, 40, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (352, char, 0
+Squish… Schlup… Squish… Squelch… Schlup…!%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0014.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (353, char, 0
+「Kuuh…! A cock right after work hits the spot… all my exhaustion just melts away.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0112.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (354, char, 0
+「Haa… Haa! Kuuh…, Mama's pussy is getting tighter and tighter!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0015.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (355, char, 0
+「Mm… Aaahn! That's good, keep it up… thrust into me harder and harder.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (356, char, 0
+Just as she asked, Chris put more power into his hips, pistoning his penis fiercely inside her vagina.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (357, char, 0
+Schlup! … Jup! … Schlup! … Squish! … Schluun!%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0016.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (358, char, 0
+「Ahn… Nfuu! Yes… your cock tip is digging into my cervix! It didn't reach this far before… your cock's grown so much.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0113.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (359, char, 0
+「B-Because you've been training it with your pussy, Mama. A-And… I want to make you feel good, so I've been working hard to make my cock bigger.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0017.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (360, char, 0
+「Heehee… such a thoughtful boy for Mama. It was worth taking you in as my son.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0018.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (361, char, 0
+「Now show me the results of all that effort.」%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.30000001192093, 50, 50, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (362, char, 0
+With that, Chris's mom twisted her own hips, drawing his penis even deeper into her vagina.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0114.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (363, char, 0
+「Kuh aaaah! Mama's womb is sucking on my cock…!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (364, char, 0
+The intense stimulation made Chris arch his back and cry out.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0019.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (365, char, 0
+「Come on, where'd all that energy from before go? You're gonna put more power into those hips and make me feel good, right?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0115.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (366, char, 0
+「Kuuuuuh! This is just the beginning!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (367, char, 0
+As if psyching himself up, Chris steeled himself and thrust his hips with renewed vigor.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (368, char, 0
+He released his hold on Mama's waist and grabbed her massive breasts with both hands, squeezing them hard.%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (bgvkur, 0.5)
+SoundUnk1 (se09, 0.5)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01F.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1627, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (bg01)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk67 (4, 2, 0, 0, 0.20000000298023, 50, 50, 0, 0, 0)
+SoundEffect (bgvkur, SV_KUR_08.OGG, 0.5, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SoundEffect (se09, EMSE_002B.OGG, 0, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+CharMessageStart
+SoundEffect (charKUR, KUR_0020.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (369, char, 0
+「Aaahn…!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (370, char, 0
+Schlup! … Jup! … Schlup! … Squish! … Schluun!%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0116.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (371, char, 0
+「Fuu! … Fuu! H-How's this?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (372, char, 0
+Chris kneaded Mama's breasts roughly from behind while desperately pistoning his hips.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0021.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (373, char, 0
+「Mmm…! Rubbing my tits that hard is gonna make Mama cum!」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (ev01, EE01F.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1627, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (ev02, EE01F.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1627, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev02, 0, 0, 0, -770, 480, 0, 0)
+MoveBackground (ev02, 2, 0, 0, 2, 2, 0, 0)
+ClearLayer (bg01)
+ShowGraphic (EFMSK_11.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (374, char, 0
+Chris's mom trembled with pleasure from the sensation of her huge breasts being groped, letting out hot breaths.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (375, char, 0
+Emboldened by her reaction, Chris groped her breasts even more vigorously.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0117.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (376, char, 0
+「M-Mama's tits are so soft… they feel amazing!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (377, char, 0
+Her soft breasts deformed mushily in his hands as he played with them.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (378, char, 0
+And right in the center of her huge areolas, her nipples swelled up noticeably in response to the stimulation.%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 1, 0, 0.30000001192093, 30, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (379, char, 0
+Squishun! … Schlup! … Jup! … Schlup! … Squish!%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0118.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (380, char, 0
+「Nnnn―! No… I-I'm… gonna cum soon!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (381, char, 0
+Chris shuddered all over as he kept groping her breasts and thrusting, suddenly crying out.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (ev01, EE01F.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1627, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+ClearLayer (bg01)
+ShowGraphic (EFMSK_01.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charKUR, KUR_0022.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (382, char, 0
+「Aaahn…! No, Mama hasn't had enough yet. Hold out a little longer!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (383, char, 0
+Mama scolded him like that.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0119.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (384, char, 0
+「B-But Mama's pussy feels too good… Khufuuu!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0023.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (385, char, 0
+「Jeez… fine, Mama's getting ready to cum too, so hold on with everything you've got until then.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (386, char, 0
+With that announcement, Chris's mom ramped up the pace, shaking her hips wildly to chase her own pleasure.%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.30000001192093, 40, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (387, char, 0
+Schlup! … Squish! … Squelch! … Schlup! … Jup! … Schlup!%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.40000000596046, 50, 50, 0, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0120.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (388, char, 0
+「Nguuuuu―――! It feels so good good good!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (389, char, 0
+Despite himself, the fierce stimulation on his penis made Chris convulse with intense pleasure.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (390, char, 0
+Her relentless pistoning stroked Chris's penis at incredible speed inside Mama's pussy, their mixed fluids frothing up with wet squelching sounds.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0024.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (391, char, 0
+「Not yet, just a little more… hold on! Mm… Nkuu… Nhiii!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0121.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (392, char, 0
+「No…! If you go that hard, I'm gonna cum!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0025.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (393, char, 0
+「Almost… almost there! Mm… Mmmn――!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (394, char, 0
+Schluun! … Schlup! … Squish! … Squelch! … Schlup! … Jup! … Squelch!%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (395, char, 0
+Chris's mom accelerated her hip movements mercilessly.%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.30000001192093, 30, 30, 0, 0, 0)
+SoundUnk1 (bgvkur, 0.5)
+SoundUnk1 (se09, 0.5)
+CharMessageStart
+SoundEffect (charCHR, CHR_0122.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (396, char, 0
+「Nhiiiiiii―――! It feels so gooooood―――!」%K%P
+);
+SetDisplayName (0, '')
+DragBackground (ev02, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 860)
+LayerConfig (0, 6, 0, -450)
+DragBackground (ev02, 0, 0, 1, 2, 3, 4)
+LayerConfig (130, 5, 0, 1)
+LayerConfig (130, 6, 0, 2)
+Effect1 (ev02, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 60, 0, 0, 0)
+Effect2 (ev02, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (ev02, 0, 0)
+SoundEffect (bgvkur, SV_KUR_09.OGG, 0.5, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SoundEffect (se09, EMSE_002C.OGG, 0, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (397, char, 0
+Overwhelmed by the intense pleasure of holding back his orgasm, ecstatic screams poured from Chris's mouth.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (398, char, 0
+At the same time, his balls tightened up visibly in their sack―he was clearly right on the edge.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0123.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (399, char, 0
+「Fuu! … Fuu! N-No… I can't hold it… Cum quick, Mama!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0026.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (400, char, 0
+「Ngh! …Nghhh! Haa… haa…! S-Sorry to keep you waiting, M-Mommy's about to cum too… nghhh!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (401, char, 0
+Chris's Mom, who had been moving her hips selfishly, finally gets herself ready to cum and tells Chris as much.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (ev01, EE01F.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1627, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (ev02, EE01F.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1627, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev02, 0, 0, 0, -770, 480, 0, 0)
+MoveBackground (ev02, 2, 0, 0, 2, 2, 0, 0)
+ClearLayer (bg01)
+SetBackground (bg01, EE01F.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1627, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 120, 1200, 0, 0)
+MoveBackground (bg01, 1, 0, 0, 0, 0, -90, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+ShowGraphic (EFMSK_10.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0124.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (402, char, 0
+「Haa! …Haa! H-Hurry, make me cum quick…!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0027.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (403, char, 0
+「Yes… yes, let's cum together…!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (404, char, 0
+With that, they sync up their hip movements perfectly and go into the final sprint.%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.30000001192093, 0, 50, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (405, char, 0
+Schlup! …Squish! …Splurt! …Squeltch! …Squelch! …Splurt! …Squelch!%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0028.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (406, char, 0
+「Nnnn―――! Cumming… cumming cumming cumming… I'm gonna cum!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0125.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (407, char, 0
+「Me too… me too, I'm cumming…! Gonna blow, gonna blow, gonna blow!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (408, char, 0
+Calling out to each other, they tremble and shake as the climax approaches.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (409, char, 0
+Their breaths sync up more and more until they time their orgasms perfectly.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (ev01, EE01F.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1627, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+ClearLayer (bg01)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0126.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (410, char, 0
+「Here it comes! I'm gonna pump it all deep inside Mommy!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0029.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (411, char, 0
+「Yes, bring it! Flood Mommy's pussy with all your hot cum!」%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.30000001192093, 20, 20, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (412, char, 0
+Splurt! …Squish! …Squelch! …Splurt! …Squeltch! …Splurt! …Splurt!%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0127.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (413, char, 0
+「It's coming… coming coming… gonna cum so haaaard―――!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0030.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (414, char, 0
+「C-Come onnnn―――!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0128.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (415, char, 0
+「I-I'm cummiiiing―――!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0031.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (416, char, 0
+「I-I'm cummiiiinggg―――!」%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (bgvkur, 0.5)
+SoundUnk1 (se09, 0.5)
+Unk67 (4, 2, 0, 0, 0.30000001192093, 50, 50, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (417, char, 0
+Screaming at the top of their lungs, their bodies convulse wildly, and in the next instant, thick white semen and clear fluids erupt from their joined sexes.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01F.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1627, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (ev02, EFBG00_02.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (ev02, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.0099999997764826, 0, 2, 0)
+Unk00
+SetTimer (timer01, 0, 0.050000000745058)
+StartTimer (timer01, 1, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01F.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1627, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+C65 (0, 0, 0, 0.0099999997764826, 0, 2, 0)
+Unk00
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01G.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1628, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (ev02, EFBG00_02.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (ev02, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.0099999997764826, 0, 2, 0)
+Unk00
+Unk67 (4, 2, 0, 0, 0.5, 50, 50, 0, 0, 0)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01G.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1628, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+SetTimer (timer01, 0, 0.5)
+StartTimer (timer01, 1, 0)
+Unk00
+SoundEffect (se01, EMSE_051A.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (418, char, 0
+Spluuurt spluuurt spluuuurt―――!%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SoundEffect (se02, EMSE_009D.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (419, char, 0
+Splaashhhh―――!%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se02, 0.5)
+CharMessageStart
+SoundEffect (charKUR, KUR_0032.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (420, char, 0
+「Ah… so hooootttt―――!」%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.30000001192093, 50, 50, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (421, char, 0
+Spurt spurt spurt! …Dopp dopp dopp! …Spurrrrrt!%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (422, char, 0
+Trembling in orgasmic bliss, Chris pumps his semen deep into Mommy with obvious pleasure.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (423, char, 0
+With every throbbing pulse of his cock buried in her pussy, massive loads of cum are delivered straight to her womb.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0129.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (424, char, 0
+「Nghhh… nghhh! Still cumming… haa!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0033.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (425, char, 0
+「It's flooding into my pussy so hard! So hot… my womb's overflowing with your hot cum!」%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.30000001192093, 50, 50, 0, 0, 0)
+SoundEffect (se01, EMSE_051B.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (426, char, 0
+Spurrrt…… spurt spurt…… dopp dopp dopp……!%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+Unk64 (0)
+SetBackground (ev01, EE01G.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1628, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+SetBackground (ev02, EE01G.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1628, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev02, 0, 0, 0, 900, -450, 0, 0)
+MoveBackground (ev02, 2, 0, 0, 2, 2, 0, 0)
+ShowGraphic (EFMSK_04.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charKUR, KUR_0034.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (427, char, 0
+「Aahn! Yes, give me more inside! Fill Mommy's womb with your cum!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0130.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (428, char, 0
+「Haaah…! Y-You don't have to tell me, it's still coming out!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0035.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (429, char, 0
+「Yes, empty those balls completely! Mommy's pussy will take it all!」%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.40000000596046, 70, 70, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (430, char, 0
+Spurt spurrrt…… throb throb throb…… spurt spurt……!%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (431, char, 0
+Dopp dopp…… spurt spurt…… spurrrt……%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (432, char, 0
+Spurt…… spurt……%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (ev01, EE01H.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1629, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SoundEffect (bgvkur, SV_KUR_17.OGG, 0.5, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (433, char, 0
+Finally, having released most of the cum from his balls, the ejaculation starts to die down.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0131.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (434, char, 0
+「Fuu―! …Fuu―! …Fuu―!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (435, char, 0
+Sweat beading on his forehead, Chris is finally released from the pleasure of his orgasm and collapses in a daze.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (436, char, 0
+He slowly pulls his spent cock out of Mommy's pussy.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01I.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1630, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 1, 0, 0, 0, 0, 0, 0)
+MoveBackground (ev01, 2, 0, 0, 1, 1, 0, 0)
+ClearLayer (ev02)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk67 (4, 2, 0, 0, 0.25, 30, 30, 0, 0, 0)
+SoundEffect (se01, EMSE_016B.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (437, char, 0
+Sluuuurp…… schlpop!%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+CharMessageStart
+SoundEffect (charCHR, CHR_0132.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (438, char, 0
+「Ngh fuu…!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (439, char, 0
+As soon as his cock slips free from her pussy, it springs up vigorously.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (440, char, 0
+Freshly extracted, his cock glistens with their mixed fluids and still twitches and spasms from the aftershocks.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0133.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (441, char, 0
+「Ugh…!」%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01J.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1631, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (ev02)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+Unk67 (4, 2, 0, 0, 0.30000001192093, 30, 30, 0, 0, 0)
+SoundEffect (se01, EMSE_052A.OGG, 0.5, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (442, char, 0
+Spurt spurt! …Spurt spurt!%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '')
+DisplayMessage (443, char, 0
+Chris groans and shudders, and the leftover cum still in his urethra sprays out, splattering across Mommy's body.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0036.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (444, char, 0
+「Oh my, still some left? Go on, let it all out, don't hold back.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0134.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (445, char, 0
+「Fghuuu…!」%K%P
+);
+SetDisplayName (0, '')
+Unk67 (4, 2, 0, 0, 0.30000001192093, 30, 30, 0, 0, 0)
+SoundEffect (se01, EMSE_052B.OGG, 0.5, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (446, char, 0
+Sploosh―! …Spurt! …Spurt……%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '')
+DisplayMessage (447, char, 0
+After a few more spurts, his ejaculation finally comes to an end.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01K.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1632, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (ev02)
+C65 (0, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0135.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (448, char, 0
+「Fuu―…… fuu―…… haa―……」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (449, char, 0
+Cooling down from his climax, Chris breathes heavily, shoulders heaving.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (450, char, 0
+The cock that had been rock-hard moments ago goes soft now that it's emptied its load, drooping limply.%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (bgvkur, 0.5)
+Unk64 (0)
+SetBackground (ev01, EE01K.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1632, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (ev02)
+SetBackground (ev02, EE01K.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1632, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev02, 0, 0, 0, -450, 140, 0, 0)
+MoveBackground (ev02, 2, 0, 0, 1.5, 1.5, 0, 0)
+ShowGraphic (EFMSK_02.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charKUR, KUR_0037.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (451, char, 0
+「Ngh… satisfied?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0136.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (452, char, 0
+「Yeah… that felt amazing…」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (bgvkur, SV_KUR_16.OGG, 0.5, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (453, char, 0
+Smiling contentedly at Mommy's gentle words, Chris responds.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0038.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (454, char, 0
+「You came so much. Must've felt really good.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (455, char, 0
+With that, she tenses her lower abdomen and pushes out the cum still inside her pussy.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01L.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1633, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (ev02)
+ShowGraphic (EFMSK_14.PNG)
+C65 (100, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk67 (4, 2, 0, 0, 0.30000001192093, 20, 20, 0, 0, 0)
+SoundEffect (se01, EMSE_014A.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (456, char, 0
+Gloop…… blorp…… dopp dopp dopp……%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '')
+DisplayMessage (457, char, 0
+Her pussy immediately lets out an obscene sound as thick, fresh semen oozes out in globs.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0039.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (458, char, 0
+「Hehe… look, so much cum pumped into Mommy's pussy…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (459, char, 0
+An astonishing amount keeps pouring out nonstop, pooling on the sheets and steaming faintly.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0040.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (460, char, 0
+「Cumming this much… were you really trying to knock Mommy up?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0137.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (461, char, 0
+「You're the one who said you hate condoms and prefer bareback.」%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (bgvkur, 0.5)
+CharMessageStart
+SoundEffect (charKUR, KUR_0041.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (462, char, 0
+「Hehe… just kidding. At my age, it's not so easy to get pregnant, so you can creampie me without worry.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0138.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (463, char, 0
+「But… what if you do get pregnant?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0042.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (464, char, 0
+「Ngh… cross that bridge when we come to it. If by some miracle I get knocked up, we'll figure it out…」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0139.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (465, char, 0
+「If that's what Mommy wants, I could help you out with some serious breeding.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0043.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (466, char, 0
+「Oh? If it's your baby, I'd happily have it…」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0140.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (467, char, 0
+「Really? Say stuff like that and I'll take you seriously.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0044.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (468, char, 0
+「Hehe… getting an old lady like me pregnant would take some serious effort, you know…?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0141.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (469, char, 0
+「Keep talking like that, and I'm getting hard again…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (470, char, 0
+As Chris says that, his limp cock starts swelling up again, slowly rising.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01M.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1634, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0142.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (471, char, 0
+「Ngh…! Look, it's getting hard again…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (472, char, 0
+Chris shyly tells Mommy as his cock throbs rigidly once more.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (473, char, 0
+Despite unloading so much already, it's rock-hard again, a testament to his insatiable stamina.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0045.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (474, char, 0
+「My… hard again after all that? Your libido really knows no bounds.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (475, char, 0
+Amazed at his vigorously erecting cock, she remarks in disbelief.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0143.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (476, char, 0
+「That's what they all say. I can never keep up with you, Mommy.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0046.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (477, char, 0
+「Like mother, like son… Even though I'm worn out from work, what am I gonna do with you…?」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0047.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (478, char, 0
+「Oh well, I was hoping for another round anyway. I'll keep you company.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0144.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (479, char, 0
+「Yay…!」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (480, char, 0
+Hearing those words, Chris's penis twitches in delighted ecstasy.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0145.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (481, char, 0
+「Alright then, I'm putting it in just like this.」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0048.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (482, char, 0
+「Yes, come on…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (483, char, 0
+Taking that as his cue, Chris slides his re-hardened penis back into Mama's pussy.%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (ev01, EE01N.PNG)
+Condition (1)
+SetFlag (1501, 1)
+SetFlag (1635, 1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (ev01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (ev02)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+Unk67 (4, 2, 0, 0, 0.30000001192093, 30, 30, 0, 0, 0)
+SoundEffect (se01, EMSE_016B.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (484, char, 0
+Squish… splurt… spluuuuurp…!%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+CharMessageStart
+SoundEffect (charKUR, KUR_0049.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (485, char, 0
+「Ahhhn…!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0146.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (486, char, 0
+「Nngh fuuuh…!」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (bgvkur, SV_KUR_03.OGG, 0.5, 0, 255, 255, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+SetDisplayName (0, '')
+DisplayMessage (487, char, 0
+As his penis slides back into her pussy, the cum he just shot out gets pushed aside, oozing thickly from the gaps.%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0147.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (488, char, 0
+「I've still got plenty of sperm left, so I'll keep pumping you full until Mama's womb is overflowing with my cum!」%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charKUR, KUR_0050.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBlonde Beauty')
+DisplayMessage (489, char, 0
+「Yes, Mama will take it all!」%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (bgvkur, 0.5)
+SetDisplayName (0, '')
+DisplayMessage (490, char, 0
+With that, their intense second round begins anew on the bed.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (491, char, 0
+But just as it was really getting going, the video suddenly ends, and the screen goes black.%K%P
+);
+SetDisplayName (0, '')
+Condition (2, 127, 1, 0, @LABEL_149405)
+Condition (130, 110, 1, 0, @LABEL_149405)
+NextFile (EVRET)
+@LABEL_149405
+SetFlag (1110, 1)
+ExecuteFunction (GetMsgSkip, , 231, 3, 1)
+Condition (2, 999, 1, @LABEL_149475, @LABEL_149492)
+StopMusic (bgm01, 0)
+Jump2 (@LABEL_149492)
+@LABEL_149475
+StopMusic (bgm01, 1)
+@LABEL_149492
+Unk16 (0, 0)
+Unk64 (0)
+ClearLayer (*)
+ShowGraphic (EFMSK_01.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetTimer (timer01, 0, 1)
+StartTimer (timer01, 1, 0)
+Unk00
+PlayMusic (bgm01, BGM02.OGG, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 10, 0, 1, 0, 0, 0, 0)
+SetFlag (1081, 1)
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 200, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+MoveBackground (st02, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 1, 0, 2, 0)
+Unk00
+SetDisplayName (0, '%LFMao')
+DisplayMessage (492, char, 0
+「What!? But it was getting to the good part…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (493, char, 0
+Snapped back to reality, I click my tongue at the black screen.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (494, char, 0
+That's when I realize my dick is rock-hard in my pants from watching the video so intently.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (495, char, 0
+「W-Wait… I might've leaked a little…」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 200, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (st02, EFBG00_01.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st02, 0, 0, 0, 0, 0, 0, 0)
+MoveBackground (st02, 6, 0, 0, 1, 1, 1, 0.60000002384186)
+ShowGraphic (EFMSK_10.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (496, char, 0
+Feeling a strange sensation in my underwear, I furrow my brows and mutter that without thinking.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (497, char, 0
+I was so absorbed I didn't notice, but I'd gotten so excited that a ton of precum leaked from my erect dick, soaking my underwear.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (498, char, 0
+And it even felt like, in sync with Chris's orgasm, I'd gotten so worked up that I'd cummed a little myself…%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 200, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+ClearLayer (st02)
+ShowGraphic (EFMSK_09.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '%LFMao')
+DisplayMessage (499, char, 0
+「S-Speaking of which, where's Chris…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (500, char, 0
+That's when I finally remember Chris.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (501, char, 0
+He'd gone to the bathroom a pretty long time ago by now…%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (502, char, 0
+And then…%K%P
+);
+SetDisplayName (0, '')
+CharMessageStart
+SoundEffect (charCHR, CHR_0148.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (503, char, 0
+「Looks like you watched it, huh…」%K%P
+);
+SetDisplayName (0, '')
+SoundEffect (se01, ONSE25.OGG, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0)
+Unk67 (4, 2, 0, 0, 0.25, 30, 30, 0, 0, 0)
+SetDisplayName (0, '%LFMao')
+DisplayMessage (504, char, 0
+「…!?」%K%P
+);
+SetDisplayName (0, '')
+SoundUnk1 (se01, 0.5)
+SetDisplayName (0, '')
+DisplayMessage (505, char, 0
+Suddenly, Chris's voice comes from right behind me.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (506, char, 0
+Hearing that, cold sweat beads on my forehead as I slowly turn around…%K%P
+);
+SetDisplayName (0, '')
+Unk16 (0, 0)
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 200, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (bg02, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, -800, 0, 0, 0)
+MoveBackground (bg02, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (st01, TG03B2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+ShowGraphic (EFMSK_54.PNG)
+C65 (100, 0, 0, 0.5, 0, 2, 0)
+Unk00
+SetDisplayName (0, '')
+DisplayMessage (507, char, 0
+There stood Chris, now changed into casual clothes, staring at me silently.%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (508, char, 0
+「Chris… when did you…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (509, char, 0
+I'd been so fixated on the video that I hadn't noticed him come back into the room at all.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (510, char, 0
+The thought that he'd been watching me the whole time fills me with shame, and I desperately rack my brain for an excuse.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 200, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (bg02, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, -800, 0, 0, 0)
+MoveBackground (bg02, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (st01, TG03B5.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0149.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (511, char, 0
+「I've been here the whole time, but you were so absorbed in the video that I didn't want to interrupt…」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 200, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (bg02, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, -800, 0, 0, 0)
+MoveBackground (bg02, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (st01, TG03B11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0150.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (512, char, 0
+「Still, sneaking around and watching someone's private video? Even if we're friends, I can't just let that slide…」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (513, char, 0
+「T-That's…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (514, char, 0
+He was completely right about that, and overwhelming guilt left me speechless.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 200, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (bg02, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, -800, 0, 0, 0)
+MoveBackground (bg02, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (st01, TG03B10.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0151.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (515, char, 0
+「So, what'd you think? How was watching me and Mama having sex?」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (516, char, 0
+「Eh…!? W-What do you mean, 'how was it'…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (517, char, 0
+But instead of pressing the issue further, Chris suddenly asks me that.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (518, char, 0
+At that straightforward question, delivered without a hint of embarrassment, I freeze up, not knowing how to respond.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 200, 0, 0, 0)
+MoveBackground (bg01, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (bg02, BG14.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg02, 0, 0, 0, -800, 0, 0, 0)
+MoveBackground (bg02, 2, 0, 0, 2, 2, 0, 0)
+SetBackground (st01, TG03B6.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+ClearLayer (st02)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0152.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (519, char, 0
+「You watched the whole thing, right? Me and Mama going at it for real… So, what'd you think? You got excited, didn't you?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (520, char, 0
+Chris asks for my reaction with keen interest, as if he'd fully expected me to watch.%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (521, char, 0
+I…%K
+);
+Unk0E (11, 0, 2, 0, 1)
+ShowChoice (2
+522, 0, 11, 0, 7, 00_SCN002I
+Admit honestly that I was excited
+523, 0, 12, 0, 7, 00_SCN002J
+Bluff and say I wasn't excited at all
+);
+FileEnd (32898, 128, 0, 0, 0)

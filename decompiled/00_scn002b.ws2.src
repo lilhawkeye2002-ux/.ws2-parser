@@ -1,0 +1,140 @@
+DisplayMessage (0, , 0
+%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (1, char, 0
+「S… Sean-kun…?」%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG09.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K5.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0005.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBoy')
+DisplayMessage (2, char, 0
+「Who's that?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (3, char, 0
+Looks like I got it completely wrong…%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG09.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K8.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0006.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBoy')
+DisplayMessage (4, char, 0
+「Could it be… you don't remember my name?」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (5, char, 0
+「S-Sorry…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (6, char, 0
+I apologize sheepishly and confess honestly.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG09.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K2.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, -15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 2, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+DragBackground (st01, 0, 0, 1, 2, 3, 4)
+LayerConfig (0, 5, 0, 15)
+LayerConfig (0, 6, 0, 0)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+LayerConfig (3, 5, 0, -1)
+LayerConfig (3, 6, 0, -1)
+Effect1 (st01, effect01, 1, 0, 0, 192, 5, 6, 0, 0, 0.15000000596046, 0, 0, 0)
+Effect2 (st01, effect01, 0, 0, 0, 0, 0)
+Unk00
+UnkBackground1 (st01, 0, 0)
+CharMessageStart
+SoundEffect (charCHR, CHR_0007.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFBoy')
+DisplayMessage (7, char, 0
+「I see… Yeah, we haven't really talked much, have we?」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (8, char, 0
+In response to my answer, he said that with a disappointed look.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG09.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0008.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (9, char, 0
+「My name is Saionji Chris. Remember it.」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (10, char, 0
+I nod, then decide to ask why he suddenly approached me.%K%P
+);
+SetDisplayName (0, '')
+NextFile (00_SCN002E)
+FileEnd (194, 0, 0, 0, 0)

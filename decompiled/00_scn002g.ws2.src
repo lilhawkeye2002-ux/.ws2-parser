@@ -1,0 +1,46 @@
+DisplayMessage (0, , 0
+%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (1, char, 0
+「I still haven't gotten used to it at all…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (2, char, 0
+There's no point in hiding it, so I honestly told him about it.%K%P
+);
+SetDisplayName (0, '')
+Unk64 (0)
+SetBackground (bg01, BG11.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+LayerConfig (0, 10, 0, 1)
+LayerConfig (0, 11, 0, 1)
+LayerConfig (0, 12, 0, 1)
+LayerConfig (0, 13, 0, 1)
+MoveBackground (bg01, 0, 0, 0, 0, 0, 0, 0)
+SetBackground (st01, TG03K3.PNG)
+Condition (1)
+RunFile (LAYER_ORDER)
+MoveBackground (st01, 0, 0, 0, 0, 0, 0, 0)
+C65 (0, 0, 0, 0.25, 0, 2, 0)
+Unk00
+CharMessageStart
+SoundEffect (charCHR, CHR_0029.OGG, 0, 0, 0, 0, 10, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0)
+SetDisplayName (0, '%LFChris')
+DisplayMessage (3, char, 0
+「Yeah, I figured. You're always by yourself in the classroom, right?」%K%P
+);
+SetDisplayName (0, '')
+SetDisplayName (0, '%LFMao')
+DisplayMessage (4, char, 0
+「Honestly, I still haven't made even a single friend…」%K%P
+);
+SetDisplayName (0, '')
+DisplayMessage (5, char, 0
+As I put my situation into words, I started feeling sad just saying it out loud.%K%P
+);
+SetDisplayName (0, '')
+NextFile (00_SCN002H)
+FileEnd (129, 0, 0, 0, 0)
