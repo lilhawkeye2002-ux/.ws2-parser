@@ -152,6 +152,25 @@ ws2-parser/
 
 ---
 
+## Module 0: Python 3.8+ Portability Requirement (All Modules)
+
+Every module in the `ws2parse/` package **must** include the following import as its very first non-comment line:
+
+```python
+from __future__ import annotations
+```
+
+**Why**: The plan uses `list[X]`, `dict[K, V]`, `X | Y` union syntax, and `OpcodeNode | LabelNode` in function signatures and dataclass fields. This syntax is only valid at runtime in Python 3.10+. The `from __future__ import annotations` import (PEP 563) defers all annotation evaluation to strings, making these constructs fully compatible with Python 3.8 and 3.9. Without this import, `list[int]` in a function signature raises `TypeError` at import time on Python 3.8.
+
+Every module must also import from `typing` for runtime-evaluated uses:
+```python
+from typing import Union, Optional, Dict, List, Callable, Literal
+```
+
+Use `Union[X, Y]` and `Optional[X]` in any context where annotations are evaluated at runtime (e.g., `isinstance()` checks, `get_type_hints()`). Bare `X | Y` in function signatures is safe with `from __future__ import annotations` but must never be used in runtime type checks without Python 3.10+ guards.
+
+---
+
 ## Module 1: `ws2parse/errors.py`
 
 Every exception the parser can raise. No bare `Exception` raises anywhere else.
@@ -908,6 +927,10 @@ def parse(data: bytes, version: Decimal, file_path: str) -> tuple[list[OpcodeNod
 ## Module 7: `ws2parse/cli.py`
 
 ```
+# Linux / macOS:
+python3 ws2parse.py [OPTIONS] <input> [<input>...]
+
+# Windows (Python 3 typically registered as 'python'):
 python ws2parse.py [OPTIONS] <input> [<input>...]
 
 Arguments:
@@ -1145,6 +1168,22 @@ All 87 rows populated, including every version gate from forensic analysis.
 
 Every phase has defined **entry preconditions**, **exit criteria**, **review gates**, and **handoff artifacts**. No phase begins until its preconditions are satisfied. No phase is considered complete until its paired `.A` review gate clears all blockers. Every change made during every phase is reviewed before the next phase begins — no exceptions.
 
+### OS-Agnostic Execution Note
+
+All verification commands in this plan use Python (`python3` on Linux/macOS, `python` on Windows — use whichever resolves correctly in your PATH). Wherever shell commands appear, Python-equivalent cross-platform forms are provided. The following substitutions apply on all platforms:
+
+| Linux/macOS | Windows PowerShell | Cross-platform Python |
+|------------|-------------------|----------------------|
+| `python3` | `python` | `sys.executable` from inside Python |
+| `time python3 ...` | `Measure-Command { python ... }` | `python3 -c "import time,subprocess,sys; t=time.perf_counter(); r=subprocess.run([...]); print(f'{time.perf_counter()-t:.3f}s')"` |
+| `diff file1 file2` | `fc /b file1 file2` | `python3 -c "import filecmp,sys; sys.exit(0 if filecmp.cmp('f1','f2',shallow=False) else 1)"` |
+| `/tmp/outdir` | `%TEMP%\outdir` | `python3 -c "import tempfile; print(tempfile.gettempdir())"` |
+| `dd if=src bs=N count=1 of=dst` | (no equivalent) | `open('dst','wb').write(open('src','rb').read(N))` |
+| `head -N` | `Select-Object -First N` | `python3 -c "import sys; [print(l,end='') for l in sys.stdin.readlines()[:N]]"` |
+| `echo "Exit: $?"` | `echo "Exit: $LASTEXITCODE"` | `print(f"Exit: {result.returncode}")` inside Python |
+
+All **absolute paths** in this plan (`/home/vercel-sandbox/`, `/tmp/`) are specific to the Amazon Linux 2023 sandbox environment where this project lives. On any other OS or machine, substitute with the actual repo root and a writable temp directory. The Python parser codebase itself must use `pathlib.Path` throughout (NFR-08) and never hardcode these paths.
+
 ### Phase 0 — Pre-conditions (current state, no work needed)
 - ✅ Repo `/home/vercel-sandbox/ws2-parser/` exists with remote
 - ✅ Reference outputs in `decompiled/*.ws2.src`
@@ -1300,9 +1339,24 @@ Every phase has defined **entry preconditions**, **exit criteria**, **review gat
 - `ws2parse.py` — entry-point shim: `from ws2parse.cli import main; main()`
 
 **Exit criteria**:
-1. `python3 ws2parse.py --help` exits 0 and prints usage
-2. `python3 ws2parse.py --format src --out /tmp/py_out /home/vercel-sandbox/00_scn002g.ws2` exits 0 and creates `/tmp/py_out/00_scn002g.ws2.src`
-3. `diff /tmp/py_out/00_scn002g.ws2.src /home/vercel-sandbox/ws2-parser/decompiled/00_scn002g.ws2.src` exits 0
+1. `python3 ws2parse.py --help` exits 0 and prints usage (Linux/macOS: `python3`; Windows: `python`)
+2. Parse one file to a temp directory and verify the output file is created:
+   ```python
+   import subprocess, tempfile
+   from pathlib import Path
+   tmp = Path(tempfile.gettempdir()) / 'py_out'
+   tmp.mkdir(exist_ok=True)
+   result = subprocess.run(['python3', 'ws2parse.py', '--format', 'src', '--out', str(tmp),
+                            str(Path('/home/vercel-sandbox/00_scn002g.ws2'))], check=True)
+   assert (tmp / '00_scn002g.ws2.src').exists()
+   ```
+3. Output is byte-exact against the PHP reference:
+   ```python
+   import filecmp
+   out = Path(tempfile.gettempdir()) / 'py_out' / '00_scn002g.ws2.src'
+   ref = Path('/home/vercel-sandbox/ws2-parser/decompiled/00_scn002g.ws2.src')
+   assert filecmp.cmp(out, ref, shallow=False), "Output differs from PHP reference"
+   ```
 
 **Handoff artifact**: Working `python3 ws2parse.py` command → Phase 3.A
 
@@ -1348,15 +1402,31 @@ Every phase has defined **entry preconditions**, **exit criteria**, **review gat
 - [ ] Only `DisplayMessage` with `layer == 'char'` emitted (not `layer == ''`)
 - [ ] Empty `SetDisplayName` (`''`) sets speaker to `[narrator]`
 
-**Gap analysis — targeted diff verification**:
-```bash
-# Run against small, medium, and large files
-for ws2 in 00_scn002b.ws2 00_scn002e.ws2 00_scn002h.ws2; do
-    python3 ws2parse.py --format src --out /tmp/p3a_out /home/vercel-sandbox/$ws2
-    diff /tmp/p3a_out/${ws2%.ws2}.ws2.src \
-         /home/vercel-sandbox/ws2-parser/decompiled/${ws2%.ws2}.ws2.src \
-         | head -40
-done
+**Gap analysis — targeted diff verification** (cross-platform Python):
+```python
+# Run against small, medium, and large files — works on Linux, macOS, and Windows
+import filecmp, subprocess, tempfile
+from pathlib import Path
+
+files = ['00_scn002b.ws2', '00_scn002e.ws2', '00_scn002h.ws2']
+input_dir = Path('/home/vercel-sandbox')          # substitute your repo root on other OS
+ref_dir   = input_dir / 'ws2-parser' / 'decompiled'
+out_dir   = Path(tempfile.gettempdir()) / 'p3a_out'
+out_dir.mkdir(exist_ok=True)
+
+for ws2 in files:
+    subprocess.run(['python3', 'ws2parse.py', '--format', 'src', '--out', str(out_dir),
+                    str(input_dir / ws2)], check=True)
+    stem    = ws2.replace('.ws2', '')
+    out_f   = out_dir / f'{stem}.ws2.src'
+    ref_f   = ref_dir / f'{stem}.ws2.src'
+    if not filecmp.cmp(out_f, ref_f, shallow=False):
+        # Print first 40 differing lines
+        out_lines = out_f.read_text(encoding='utf-8').splitlines()
+        ref_lines = ref_f.read_text(encoding='utf-8').splitlines()
+        import difflib
+        diff = list(difflib.unified_diff(ref_lines, out_lines, fromfile='ref', tofile='out', n=0))
+        print(f'DIFF {stem}:', '\n'.join(diff[:40]))
 ```
 Any diff output = blocker. Trace each diff line to the responsible formatter rule, fix, re-diff.
 
@@ -1372,63 +1442,105 @@ Any diff output = blocker. Trace each diff line to the responsible formatter rul
 **Entry**: Phase 3.A exit criteria passed
 **No new files created.** Only runs verification commands.
 
-**Verification protocol** (every step must pass; if any step fails, report exactly what failed and stop):
+**Verification protocol** (every step must pass; if any step fails, report exactly what failed and stop).
 
-```bash
-# Step V-01: Parse all 10 files
-python3 ws2parse.py --format src --out /tmp/py_out /home/vercel-sandbox/*.ws2
-# Expected: exit code 0, "10 files OK" in stdout
+All steps are expressed as cross-platform Python — works on Linux, macOS, and Windows. Substitute `python3` with `python` on Windows if needed.
 
-# Step V-02: Byte-exact diff for all 10 files
-PASS=0; FAIL=0
-for f in /home/vercel-sandbox/ws2-parser/decompiled/*.ws2.src; do
-    base=$(basename "$f")
-    if diff -q "$f" "/tmp/py_out/$base" > /dev/null 2>&1; then
-        echo "OK: $base"; PASS=$((PASS+1))
-    else
-        echo "DIFF: $base"; diff "$f" "/tmp/py_out/$base" | head -20
-        FAIL=$((FAIL+1))
-    fi
-done
-echo "PASS: $PASS  FAIL: $FAIL"
+```python
+# ── SETUP ─────────────────────────────────────────────────────────────────────
+import filecmp, json, subprocess, sys, tempfile, time
+from pathlib import Path
+
+INPUT_DIR = Path('/home/vercel-sandbox')                       # adjust per OS / machine
+REF_DIR   = INPUT_DIR / 'ws2-parser' / 'decompiled'
+TMP       = Path(tempfile.gettempdir())
+PY        = sys.executable                                     # python3 or python — whichever is active
+
+def run(*args, **kw):
+    return subprocess.run([PY, 'ws2parse.py', *args], **kw)
+
+# ── Step V-01: Parse all 10 files ─────────────────────────────────────────────
+out_src = TMP / 'py_out'; out_src.mkdir(exist_ok=True)
+result = run('--format', 'src', '--out', str(out_src), *sorted(INPUT_DIR.glob('*.ws2')))
+assert result.returncode == 0, f"V-01 FAIL: exit {result.returncode}"
+# Expected: exit 0, "10 files OK" in stdout
+
+# ── Step V-02: Byte-exact diff for all 10 files ───────────────────────────────
+passed, failed = [], []
+for ref_f in sorted(REF_DIR.glob('*.ws2.src')):
+    out_f = out_src / ref_f.name
+    if filecmp.cmp(ref_f, out_f, shallow=False):
+        passed.append(ref_f.name); print(f"OK: {ref_f.name}")
+    else:
+        import difflib
+        diff = list(difflib.unified_diff(
+            ref_f.read_text('utf-8').splitlines(),
+            out_f.read_text('utf-8').splitlines(),
+            fromfile='ref', tofile='out', n=0))
+        print(f"DIFF: {ref_f.name}\n" + '\n'.join(diff[:20]))
+        failed.append(ref_f.name)
+print(f"PASS: {len(passed)}  FAIL: {len(failed)}")
+assert not failed, f"V-02 FAIL: {failed}"
 # Expected: PASS: 10  FAIL: 0
 
-# Step V-03: JSON output does not error
-python3 ws2parse.py --format json --out /tmp/py_json /home/vercel-sandbox/*.ws2
-# Expected: exit 0; all 10 .json files created
+# ── Step V-03: JSON output does not error ─────────────────────────────────────
+out_json = TMP / 'py_json'; out_json.mkdir(exist_ok=True)
+result = run('--format', 'json', '--out', str(out_json), *sorted(INPUT_DIR.glob('*.ws2')))
+assert result.returncode == 0, f"V-03 FAIL: exit {result.returncode}"
+assert len(list(out_json.glob('*.json'))) == 10, "V-03 FAIL: expected 10 .json files"
 
-# Step V-04: JSON is valid JSON
-for f in /tmp/py_json/*.json; do python3 -m json.tool "$f" > /dev/null; done
-# Expected: all exit 0
+# ── Step V-04: JSON is valid JSON ─────────────────────────────────────────────
+for jf in sorted(out_json.glob('*.json')):
+    try:
+        json.loads(jf.read_text('utf-8'))
+    except json.JSONDecodeError as e:
+        raise AssertionError(f"V-04 FAIL: {jf.name}: {e}")
+# Expected: all valid JSON
 
-# Step V-05: Text output does not error
-python3 ws2parse.py --format text --out /tmp/py_text /home/vercel-sandbox/*.ws2
-# Expected: exit 0; all 10 .txt files created
+# ── Step V-05: Text output does not error ─────────────────────────────────────
+out_txt = TMP / 'py_text'; out_txt.mkdir(exist_ok=True)
+result = run('--format', 'text', '--out', str(out_txt), *sorted(INPUT_DIR.glob('*.ws2')))
+assert result.returncode == 0, f"V-05 FAIL: exit {result.returncode}"
+assert len(list(out_txt.glob('*.txt'))) == 10, "V-05 FAIL: expected 10 .txt files"
 
-# Step V-06: Largest file performance
-time python3 ws2parse.py --format src --out /tmp/py_out /home/vercel-sandbox/00_scn002h.ws2
-# Expected: real time < 1.000s
+# ── Step V-06: Largest file performance ───────────────────────────────────────
+t0 = time.perf_counter()
+run('--format', 'src', '--out', str(out_src), str(INPUT_DIR / '00_scn002h.ws2'))
+elapsed = time.perf_counter() - t0
+print(f"V-06: 00_scn002h.ws2 parsed in {elapsed:.3f}s")
+assert elapsed < 1.0, f"V-06 FAIL: {elapsed:.3f}s > 1.000s"
+# Expected: < 1.000s
 
-# Step V-07: Error handling — feed a truncated file
-dd if=/home/vercel-sandbox/00_scn002b.ws2 bs=100 count=1 of=/tmp/truncated.ws2
-python3 ws2parse.py --format src /tmp/truncated.ws2; echo "Exit: $?"
-# Expected: exit 1; error message contains "BufferUnderrunError" and hex offset
+# ── Step V-07: Error handling — truncated file ────────────────────────────────
+truncated = TMP / 'truncated.ws2'
+truncated.write_bytes((INPUT_DIR / '00_scn002b.ws2').read_bytes()[:100])
+result = run('--format', 'src', str(truncated), capture_output=True, text=True)
+print(f"V-07: exit {result.returncode}")
+assert result.returncode == 1, f"V-07 FAIL: expected exit 1, got {result.returncode}"
+assert 'BufferUnderrunError' in (result.stdout + result.stderr), \
+    "V-07 FAIL: 'BufferUnderrunError' not in output"
+# Expected: exit 1; output contains "BufferUnderrunError" and hex offset
 
-# Step V-08: Unknown opcode in non-strict mode
-python3 -c "
-with open('/tmp/bad_opcode.ws2', 'wb') as f:
-    f.write(bytes([0xAA, 0xFF, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]))
-"
-python3 ws2parse.py --format src /tmp/bad_opcode.ws2; echo "Exit: $?"
+# ── Step V-08: Unknown opcode — non-strict mode ───────────────────────────────
+bad = TMP / 'bad_opcode.ws2'
+bad.write_bytes(bytes([0xAA, 0xFF, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]))
+result = run('--format', 'src', str(bad), capture_output=True, text=True)
+print(f"V-08: exit {result.returncode}")
+assert result.returncode == 1, f"V-08 FAIL: expected exit 1, got {result.returncode}"
 # Expected: exit 1; warning printed; partial output contains FileEnd line
 
-# Step V-09: Strict mode aborts on unknown opcode
-python3 ws2parse.py --strict --format src /tmp/bad_opcode.ws2; echo "Exit: $?"
+# ── Step V-09: Unknown opcode — strict mode ───────────────────────────────────
+result = run('--strict', '--format', 'src', str(bad), capture_output=True, text=True)
+print(f"V-09: exit {result.returncode}")
+assert result.returncode == 2, f"V-09 FAIL: expected exit 2, got {result.returncode}"
 # Expected: exit 2
 
-# Step V-10: --version-info
-python3 ws2parse.py --version-info
-# Expected: prints "ws2parse 1.0.0" and exits 0
+# ── Step V-10: --version-info ─────────────────────────────────────────────────
+result = run('--version-info', capture_output=True, text=True)
+assert result.returncode == 0, f"V-10 FAIL: exit {result.returncode}"
+assert 'ws2parse 1.0.0' in (result.stdout + result.stderr), \
+    f"V-10 FAIL: 'ws2parse 1.0.0' not in output: {result.stdout}"
+print("V-10 PASS:", result.stdout.strip())
 ```
 
 **If ALL 10 verification steps pass**: report "VERIFICATION COMPLETE — 10/10 passed"
@@ -1452,7 +1564,18 @@ python3 ws2parse.py --version-info
 7. Re-run V-01 through V-10 in full to confirm no regressions
 
 **For V-06 performance failure** (real time > 1.000s):
-- Profile: `python3 -m cProfile -s cumtime ws2parse.py --format src 00_scn002h.ws2 2>&1 | head -30`
+- Profile (cross-platform Python — no `head` or `2>&1` required):
+  ```python
+  import pstats, cProfile, io, sys
+  pr = cProfile.Profile()
+  pr.enable()
+  # run: subprocess.run([sys.executable, 'ws2parse.py', '--format', 'src', '00_scn002h.ws2'])
+  pr.disable()
+  s = io.StringIO()
+  ps = pstats.Stats(pr, stream=s).sort_stats('cumulative')
+  ps.print_stats(30)           # top 30 functions — no `head` needed
+  print(s.getvalue())
+  ```
 - Identify top hotspot function
 - Eliminate unnecessary string allocation in parse loop; pre-compile format strings; cache `repr()` results if repeated
 
@@ -1535,10 +1658,26 @@ After all fixes are applied, run the complete V-01 through V-10 suite one final 
 **Agent mandate**: Four agents run in parallel, each auditing one NFR cluster. Every NFR requirement is verified against actual code — not intent, not comments, actual behavior. Every failure is a blocker.
 
 **NFR-01 Performance** — Agent 1:
-- [ ] Run `time python3 ws2parse.py --format src --out /tmp/nfr_out /home/vercel-sandbox/00_scn002h.ws2` — must be < 1.000s real
-- [ ] Run batch: `time python3 ws2parse.py --format src --out /tmp/nfr_out /home/vercel-sandbox/*.ws2` — must be < 5.000s real
-- [ ] Profile parse loop for string allocation: `python3 -m cProfile` — verify no repeated `str()` allocations in inner loop
-- [ ] Memory: `python3 -c "import tracemalloc; tracemalloc.start(); ..."` — peak < 50 MB per file
+- [ ] Time single large file (cross-platform Python):
+  ```python
+  import time, subprocess, sys
+  from pathlib import Path
+  t0 = time.perf_counter()
+  subprocess.run([sys.executable, 'ws2parse.py', '--format', 'src',
+                  '--out', str(Path(tempfile.gettempdir()) / 'nfr_out'),
+                  str(Path('/home/vercel-sandbox/00_scn002h.ws2'))], check=True)
+  assert time.perf_counter() - t0 < 1.0, "NFR-01 FAIL: single file > 1s"
+  ```
+- [ ] Time batch of 10 files — same pattern, glob `*.ws2` — must be < 5.000s
+- [ ] Profile parse loop for string allocation using Python `cProfile` + `pstats` (stdlib, portable) — verify no repeated `str()` allocations in inner loop
+- [ ] Memory via `tracemalloc` (stdlib, portable on all platforms):
+  ```python
+  import tracemalloc
+  tracemalloc.start()
+  # ... parse 00_scn002h.ws2 ...
+  current, peak = tracemalloc.get_traced_memory()
+  assert peak < 50 * 1024 * 1024, f"NFR-01 FAIL: peak {peak//1024//1024}MB > 50MB"
+  ```
 
 **NFR-02 Reliability** — Agent 1 (continued):
 - [ ] Feed truncated file → exit 1 + `BufferUnderrunError` in stderr (not silent)
@@ -1564,7 +1703,14 @@ After all fixes are applied, run the complete V-01 through V-10 suite one final 
 - [ ] `N files OK, M warnings, K errors` summary printed on completion
 
 **NFR-07/08/09 Security, Portability & Test Coverage** — Agent 4:
-- [ ] `--out DIR` path traversal check: `../../../etc/passwd` as out dir must be rejected
+- [ ] `--out DIR` path traversal check — platform-agnostic relative path (no `/etc/passwd`):
+  ```python
+  import subprocess, sys
+  # Use a pure relative traversal path that is invalid on any OS
+  result = subprocess.run([sys.executable, 'ws2parse.py', '--out', '../../../evil_out',
+                           'somefile.ws2'], capture_output=True)
+  assert result.returncode == 2, "NFR-07 FAIL: path traversal not rejected"
+  ```
 - [ ] No `eval`, `exec`, `subprocess`, `os.system` anywhere in `ws2parse/` package
 - [ ] `import pathlib` used throughout; no `os.sep` hardcoding
 - [ ] Python 3.8 syntax: no walrus operator (`:=`), no `match`, no `|` union in annotations
@@ -1590,31 +1736,28 @@ After all fixes are applied, run the complete V-01 through V-10 suite one final 
 - [ ] `git push` exits 0
 - [ ] Verify commit visible on GitHub remote
 
-**Git operations**:
+**Git operations** (cross-platform — avoids bash heredoc which is not portable to Windows PowerShell):
 ```bash
-cd /home/vercel-sandbox/ws2-parser
 git add ws2parse/ ws2parse.py docs/
-git commit -m "$(cat <<'EOF'
-feat: Python WS2 parser v1.0.0 + SSOT docs + NFR
+git commit -m "feat: Python WS2 parser v1.0.0 + SSOT docs + NFR" \
+           -m "- ws2parse/ Python package: 87 opcodes, 3 formatters, full E2E pipeline" \
+           -m "- Verified byte-exact match against PHP reference for all 10 files" \
+           -m "- docs/FORMAT_SPEC.md: binary format SSOT (cross-review verified)" \
+           -m "- docs/OPCODE_REFERENCE.md: 87-opcode reference table (forensic verified)" \
+           -m "- docs/NFR.md: 9 NFR clusters (all items code-verified)" \
+           -m "Forensic findings F-01 through F-15 all addressed." \
+           -m "Review gates passed: 1.A, 2.A, 3.A, 4.A, X-Review A/B/C/D" \
+           -m "Co-Authored-By: Claude Sonnet 4.6 (1M context) <noreply@anthropic.com>"
+git push origin main
+```
 
-- ws2parse/ Python package: 87 opcodes, 3 formatters, full E2E pipeline
-- Verified byte-exact match against PHP reference for all 10 files
-- docs/FORMAT_SPEC.md: binary format SSOT (cross-review verified)
-- docs/OPCODE_REFERENCE.md: 87-opcode reference table (forensic verified)
-- docs/NFR.md: 9 NFR clusters (all items code-verified)
-
-Forensic findings F-01 through F-15 all addressed:
-- No silent buffer underruns (FastBuffer always raises)
-- Exact label algorithm (processLabels port, F-08/09/10/15)
-- Version gates as Decimal (no float precision issues, F-12)
-- Correct empty-string quoting per opcode (F-13)
-- FileEnd does not stop loop (F-07)
-
-Review gates passed: 1.A, 2.A, 3.A, 4.A, X-Review A/B/C/D
-
-Co-Authored-By: Claude Sonnet 4.6 (1M context) <noreply@anthropic.com>
-EOF
-)"
+**Windows PowerShell equivalent** (backtick line continuation):
+```powershell
+git add ws2parse/ ws2parse.py docs/
+git commit -m "feat: Python WS2 parser v1.0.0 + SSOT docs + NFR" `
+           -m "- ws2parse/ Python package: 87 opcodes, 3 formatters, full E2E pipeline" `
+           -m "Review gates passed: 1.A, 2.A, 3.A, 4.A, X-Review A/B/C/D" `
+           -m "Co-Authored-By: Claude Sonnet 4.6 (1M context) <noreply@anthropic.com>"
 git push origin main
 ```
 
